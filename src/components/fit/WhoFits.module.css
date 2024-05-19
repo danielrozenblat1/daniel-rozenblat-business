@@ -1,0 +1,217 @@
+.xmark {
+    font-size: 30px; 
+    color: red; 
+  }
+
+  .checkmark{
+    font-size: 30px; 
+    color: rgb(0, 62, 21); 
+  }
+
+
+  .wrapY {
+    display: flex; /* תצוגה של כל wrap כ-Flexbox */
+    flex-direction: column; /* כל wrap יהיה בעמודה */
+    align-items: center; /* יישור התוכן במרכז של wrap */
+    justify-content: center;
+    /* box-shadow:  0 0 8px 1px rgb(0, 62, 21);  */
+    width:40%;
+    border-radius: 20px;
+  }
+  .wrapN {
+    display: flex; /* תצוגה של כל wrap כ-Flexbox */
+    flex-direction: column; /* כל wrap יהיה בעמודה */
+    align-items: center; /* יישור התוכן במרכז של wrap */
+    justify-content: center;
+    /* box-shadow:  0 0 8px 1px red; */
+    width:40%;
+    border-radius: 20px;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    margin-right:auto;
+    padding:20px;
+  }
+  .title{
+    display: flex;
+    font-size: 3.5rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:2% auto;
+    justify-content: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .header{
+    display: flex;
+    font-size: 2rem;
+    font-family: "Assistant";
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .description{
+    display: flex;
+    font-size: 1.4rem;
+    font-family: "AssistantR";
+    text-align: right;
+    width:85%;
+    padding-right:15px;
+
+  }
+  @media only screen and (max-width: 350px) {
+
+
+    .xmark {
+      font-size: 30px; 
+      color: red; 
+    }
+  
+    .checkmark{
+      font-size: 30px; 
+      color: rgb(0, 62, 21); 
+    }
+  
+  
+    .wrapY {
+      display: flex; /* תצוגה של כל wrap כ-Flexbox */
+      flex-direction: column; /* כל wrap יהיה בעמודה */
+      align-items: center; /* יישור התוכן במרכז של wrap */
+      justify-content: center;
+      /* box-shadow:  0 0 8px 1px rgb(0, 62, 21);  */
+      width:90%;
+      border-radius: 20px;
+    }
+    .wrapN {
+      display: flex; /* תצוגה של כל wrap כ-Flexbox */
+      flex-direction: column; /* כל wrap יהיה בעמודה */
+      align-items: center; /* יישור התוכן במרכז של wrap */
+      justify-content: center;
+      /* box-shadow:  0 0 8px 1px red; */
+      width:90%;
+      border-radius: 20px;
+    }
+    .wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
+    }
+    .text{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      direction: rtl;
+      margin-right:auto;
+      padding:20px;
+    }
+    .title{
+      display: flex;
+      font-size: 2rem;
+      font-family: "Assistant";
+      text-align: center;
+      margin:2% auto;
+      justify-content: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .header{
+      display: flex;
+      font-size: 1.6rem;
+      font-family: "Assistant";
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .description{
+      display: flex;
+      font-size: 1rem;
+      font-family: "AssistantR";
+      text-align: right;
+      width:85%;
+      padding-right:15px;
+  
+    }
+  }
+  @media only screen  and (min-width: 350px) and (max-width: 450px) {
+
+
+    .xmark {
+      font-size: 30px; 
+      color: red; 
+    }
+  
+    .checkmark{
+      font-size: 30px; 
+      color: rgb(0, 62, 21); 
+    }
+  
+  
+    .wrapY {
+      display: flex; /* תצוגה של כל wrap כ-Flexbox */
+      flex-direction: column; /* כל wrap יהיה בעמודה */
+      align-items: center; /* יישור התוכן במרכז של wrap */
+      justify-content: center;
+      /* box-shadow:  0 0 8px 1px rgb(0, 62, 21);  */
+      width:90%;
+      border-radius: 20px;
+    }
+    .wrapN {
+      display: flex; /* תצוגה של כל wrap כ-Flexbox */
+      flex-direction: column; /* כל wrap יהיה בעמודה */
+      align-items: center; /* יישור התוכן במרכז של wrap */
+      justify-content: center;
+      /* box-shadow:  0 0 8px 1px red; */
+      width:90%;
+      border-radius: 20px;
+    }
+    .wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
+    }
+    .text{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      direction: rtl;
+      margin-right:auto;
+      padding:20px;
+    }
+    .title{
+      display: flex;
+      font-size: 2.2rem;
+      font-family: "Assistant";
+      text-align: center;
+      margin:2% auto;
+      justify-content: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .header{
+      display: flex;
+      font-size: 1.8rem;
+      font-family: "Assistant";
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .description{
+      display: flex;
+      font-size: 1.1rem;
+      font-family: "AssistantR";
+      text-align: right;
+      width:90%;
+      padding-right:15px;
+  
+    }
+  }

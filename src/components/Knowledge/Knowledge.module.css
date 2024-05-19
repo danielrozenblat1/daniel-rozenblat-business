@@ -1,0 +1,67 @@
+.box {
+    width: 250px;
+    height: 250px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 15px white, 0 0 15px white, 0 0 15px white, 0 0 15px white, 0 0 15px white, 0 0 15px white;
+    position: relative;
+    margin:3%;
+  }
+  
+  .box:hover {
+    animation: spin 1s forwards;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 1rem;
+    font-family: "Assistant";
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .box:hover .text {
+    opacity: 1;
+  }
+
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    33%{
+      transform: rotate(30deg);
+    }
+67%{
+  transform: rotate(-15deg);
+}
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+
+  @media only screen and (max-width: 350px) {
+
+
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      box-shadow: 0 0 5px white, 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+      position: relative;
+      margin:4%;
+    }
+
+  }

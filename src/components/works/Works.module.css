@@ -1,0 +1,228 @@
+.work {
+    width: calc(50% - 10px); /* חצי מהרוחב עם מרווח בין העבודות */
+    margin-bottom: 20px;
+    display: flex; /* הוספת display כדי להציג את הכותרת והתיאור והתמונה באותה שורה */
+   margin:2% auto;
+   box-shadow: 0 0 5px 1px #848484;
+   border-radius: 30px;
+   background: linear-gradient(to right, #763ad74a, #e8e8e8);
+   animation: shadowColorChange 1.5s infinite alternate;
+  }
+  .href{
+    font-family: "AssistantR";
+    font-size: 1rem;
+    text-align: center;
+direction: rtl;
+margin:2% auto;
+  }
+  @keyframes shadowColorChange {
+    0% {
+      box-shadow: 0 0 5px 1px #b1b1b1;
+    }
+    100% {
+      box-shadow: 0 0 5px 1px #222222;
+    }
+  }
+  .text {
+    padding: 10px;
+    flex: 1; /* הצבת הכותרת והתיאור למיקום נכון בתוך העבודה */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .imageContainer {
+    position: relative;
+
+    flex: 1.2; /* הצבת התמונה למיקום נכון בתוך העבודה */
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding:20px;
+    cursor: pointer;
+    transition: all ease 1s;
+  }
+  .img:hover{
+ transform: scale(1.1);
+  }
+  .title{
+    font-family: "Assistant";
+    font-size: 2.5rem;
+    text-align: center;
+direction: rtl;
+margin:0 auto;
+}
+.description{
+    font-family: "Assistant";
+    font-size: 1.2rem;
+    text-align: center;
+direction: rtl;
+margin:0 auto;
+}
+
+
+  .worksContainer{
+    display: flex;
+    margin:0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .work {
+      width: calc(95% - 10px); /* חצי מהרוחב עם מרווח בין העבודות */
+      margin-bottom: 20px;
+      display: flex; /* הוספת display כדי להציג את הכותרת והתיאור והתמונה באותה שורה */
+     margin:2% auto;
+     box-shadow: 0 0 5px 1px #848484;
+     border-radius: 30px;
+     background: linear-gradient(to right, #763ad74a, #e8e8e8);
+     animation: shadowColorChange 1.5s infinite alternate;
+    }
+    .href{
+      font-family: "AssistantR";
+      font-size: 0.6rem;
+      text-align: center;
+  direction: rtl;
+  margin:2% auto;
+    }
+    @keyframes shadowColorChange {
+      0% {
+        box-shadow: 0 0 5px 1px #b1b1b1;
+      }
+      100% {
+        box-shadow: 0 0 5px 1px #222222;
+      }
+    }
+    .text {
+      padding: 10px;
+      flex: 1; /* הצבת הכותרת והתיאור למיקום נכון בתוך העבודה */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .imageContainer {
+      position: relative;
+  
+      flex: 1.5; /* הצבת התמונה למיקום נכון בתוך העבודה */
+    }
+    
+    .img {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding:20px;
+      cursor: pointer;
+      transition: all ease 1s;
+    }
+    .img:hover{
+   transform: scale(1.1);
+    }
+    .title{
+      font-family: "Assistant";
+      font-size: 1.2rem;
+      text-align: center;
+  direction: rtl;
+  margin:0 auto;
+  }
+  .description{
+      font-family: "Assistant";
+      font-size: 0.9rem;
+      text-align: center;
+  direction: rtl;
+  margin:0 auto;
+  }
+  
+  
+    .worksContainer{
+      display: flex;
+      margin:0 auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  }
+  @media only screen  and (min-width: 350px) and (max-width: 450px) {
+
+    .work {
+      width: calc(95% - 10px); /* חצי מהרוחב עם מרווח בין העבודות */
+      margin-bottom: 20px;
+      display: flex; /* הוספת display כדי להציג את הכותרת והתיאור והתמונה באותה שורה */
+     margin:2% auto;
+     box-shadow: 0 0 5px 1px #848484;
+     border-radius: 30px;
+     background: linear-gradient(to right, #763ad74a, #e8e8e8);
+     animation: shadowColorChange 1.5s infinite alternate;
+    }
+    .href{
+      font-family: "AssistantR";
+      font-size: 0.7rem;
+      text-align: center;
+  direction: rtl;
+  margin:2% auto;
+    }
+    @keyframes shadowColorChange {
+      0% {
+        box-shadow: 0 0 5px 1px #b1b1b1;
+      }
+      100% {
+        box-shadow: 0 0 5px 1px #222222;
+      }
+    }
+    .text {
+      padding: 10px;
+      flex: 1; /* הצבת הכותרת והתיאור למיקום נכון בתוך העבודה */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    
+    .imageContainer {
+      position: relative;
+  
+      flex: 1.4; /* הצבת התמונה למיקום נכון בתוך העבודה */
+    }
+    
+    .img {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding:20px;
+      cursor: pointer;
+      transition: all ease 1s;
+    }
+    .img:hover{
+   transform: scale(1.1);
+    }
+    .title{
+      font-family: "Assistant";
+      font-size: 1.4rem;
+      text-align: center;
+  direction: rtl;
+  margin:0 auto;
+  }
+  .description{
+      font-family: "Assistant";
+      font-size: 0.9rem;
+      text-align: center;
+  direction: rtl;
+  margin:0 auto;
+  }
+  
+  
+    .worksContainer{
+      display: flex;
+      margin:0 auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  }
