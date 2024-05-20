@@ -59,7 +59,7 @@ const Wrapper=()=>{
         <BasicAccordion/>
         <FifthScreen/>
 
-        {/* <Popped/> */}
+        <Popped/>
  </div>
 }
 export default Wrapper

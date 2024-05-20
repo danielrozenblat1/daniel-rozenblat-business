@@ -5,6 +5,7 @@ import Wrapper from './Wrapper';
 import FriendsPage from "./components/presentFromMe/FriendsPage"
 import Takanon from './components/takanon/Takanon';
 import PresentPage from "./components/presentFromMe/PresentPage"
+import Thanks from './components/thank/Thanks';
 function App() {
   return <>
    <Router>
@@ -13,6 +14,7 @@ function App() {
     <Route path="/תקנון"  element={<Takanon/>}/>
     <Route path="/מתנה"  element={<PresentPage/>}/>
     <Route path="/חבר מביא חבר"  element={<FriendsPage/>}/>
+    <Route path="/תודה"  element={<Thanks/>}/>
  </Routes>
  </Router>
   

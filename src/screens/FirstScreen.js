@@ -3,6 +3,7 @@ import {useEffect,useRef} from "react"
 import { Player } from "@lordicon/react";
 import coldToHot from "../icons/wired-lineal-818-cold-temperature.json"
 import ScrollReveal from "scrollreveal";
+import { Link as ScrollLink } from "react-scroll";
 const FirstScreen=(props)=>{
 
   const handleComplete = () => {
@@ -73,7 +74,7 @@ return <>
 <div className={styles.subTitle}>אתה מתכוון לממש את הפוטנציאל העסקי שלך?</div>
 <div className={styles.title}>גלה איך <div className={styles.bold}>דף נחיתה ממוקד</div> הופך את הלידים הקפואים שלך לרותחים</div>
 {/* <div className={styles.subTitle}>בעזרת דף נחיתה ממיר, תוכל להדגיש בצורה תדמיתית יותר את הערך שלך, להסיר חסמים ואי וודאויות מראש ולהגביר את האמון בך ובעסק שלך</div> */}
-<div className={styles.btn}><button className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></div>
+<div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div>
 
 </div>
 

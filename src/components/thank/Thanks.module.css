@@ -1,0 +1,28 @@
+.title{
+    font-family: "Assistant";
+    font-size: 2.5rem;
+    text-align: center;
+direction: rtl;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+margin:2% auto;
+}
+.subtitle{
+    font-family: "AssistantR";
+    font-size: 1.2rem;
+    width:80%;
+    margin:2% auto 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+direction: rtl;
+}
+@media only screen and (max-width: 350px) {
+
+    .title{
+        font-family: "Assistant";
+        font-size: 2rem;
+        text-align: center;
+    direction: rtl;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin:2% auto;
+    }
+}

@@ -103,7 +103,7 @@ const handleNavigateHome = () => {
     </form>
     <div className={styles.middle}><NavLink className={styles.back} to="/"  onClick={handleNavigateHome}>חזרה לעמוד הראשי</NavLink></div>
    </div>}
-{loading && <div className={styles.title}>שומרים את הפרטים והמייל בדרך אליך </div>}
+{loading && <div className={styles.submitted}><div className={styles.title}>שומרים את הפרטים והמייל בדרך אליך </div></div>}
     </>
 }
 

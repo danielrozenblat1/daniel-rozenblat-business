@@ -35,11 +35,11 @@ margin:2% auto;
   .imageContainer {
     position: relative;
 
-    flex: 1.2; /* הצבת התמונה למיקום נכון בתוך העבודה */
+    flex: 1; /* הצבת התמונה למיקום נכון בתוך העבודה */
   }
   
   .img {
-    width: 100%;
+    width:90%;
     height: auto;
     display: block;
     padding:20px;
@@ -115,7 +115,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -192,7 +192,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -269,7 +269,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -346,7 +346,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -423,7 +423,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -500,7 +500,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
@@ -577,7 +577,7 @@ margin:0 auto;
     }
     
     .img {
-      width: 100%;
+      width: 80%;
       height: auto;
       display: block;
       padding:20px;
