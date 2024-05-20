@@ -13,6 +13,7 @@ import WhoFits from './components/fit/WhoFits';
 import FifthScreen from './screens/FifthScreen';
 import From from './components/from to/From';
 import NavBar from './components/NavBar/NavBar';
+import BasicAccordion from './components/Akordion/Akordion';
 
 
 const Wrapper=()=>{
@@ -55,7 +56,9 @@ const Wrapper=()=>{
         <WhoFits/>
         <FormScreen/>
         <Works/>
+        <BasicAccordion/>
         <FifthScreen/>
+
         {/* <Popped/> */}
  </div>
 }

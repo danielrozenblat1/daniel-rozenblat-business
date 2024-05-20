@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import GiftIcon from '@mui/icons-material/CardGiftcard';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ListItem from '@mui/material/ListItem';
@@ -18,6 +19,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InfoIcon from '@mui/icons-material/Info';
 import ChatIcon from '@mui/icons-material/Chat';
+import QusetionIcon from '@mui/icons-material/QuestionAnswer';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import iconn from "../images/דניאל אייקון.png"
@@ -89,6 +91,12 @@ export default function PersistentDrawerRight() {
     setOpen(false);
   };
 
+  const closeDrawer = () => {
+    if (open) {
+      setOpen(false);
+    }
+  };
+
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -132,15 +140,16 @@ export default function PersistentDrawerRight() {
         </DrawerHeader>
         <Divider />
         <List sx={{ direction: "rtl", height: "60%",display:"flex",justifyContent:"space-evenly",flexDirection:"column" }}>
-  {['עלינו', 'לקוחות ממליצים', 'שאלות נפוצות', 'צור קשר'].map((text, index) => (
+  {['קצת עלי', 'לקוחות ממליצים', 'שאלות נפוצות', 'צור קשר','מתנה ממני'].map((text, index) => (
     <ListItem key={text} disablePadding >
-      <ScrollLink to={text} spy={true} smooth={true} duration={1000} offset={-70}>
+      <ScrollLink to={text} spy={true} smooth={true} duration={1500} offset={-70} onClick={closeDrawer}>
         <ListItemButton>
           <ListItemIcon>
             {index === 0 && <InfoIcon />}
             {index === 1 && <ChatIcon />}
-            {index === 2 && <ChatIcon />}
+            {index === 2 && <QusetionIcon />}
             {index === 3 && <ContactMailIcon />}
+            {index === 4 && <GiftIcon/>}
           </ListItemIcon>
           <ListItemText primary={text} sx={{width:"100%" }} />
         </ListItemButton>

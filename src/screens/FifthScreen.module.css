@@ -5,6 +5,14 @@
 
     align-items: center;
 }
+.href{
+    font-family: "Assistant";
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+direction: rtl;
+cursor: pointer;
+}
 .title{
     font-family: "Assistant";
     font-size: 4rem;

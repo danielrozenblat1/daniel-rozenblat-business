@@ -1,0 +1,227 @@
+.present{
+    display:flex;
+    height:auto;
+    width:100%;
+    flex-direction: column;
+    margin:0 auto;
+}
+.title{
+    font-family: "Assistant";
+    font-size: 70px;
+    margin-top:3%;
+    color:black;
+    text-align: center;
+    
+}
+.subtitle{
+    font-family: "AssistantR";
+    font-size: 20px;
+    margin-top:3%;
+    margin:1% auto;
+width:60%;
+    color:black;
+    text-align: center;
+   
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    width:25%;
+    margin: 1% auto;
+}
+@media only screen and (max-width: 350px) {
+    .title{
+        font-family: "Assistant";
+        font-size: 35px;
+ 
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 14px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:70%;
+        margin: 2% auto;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .title{
+        font-family: "Assistant";
+        font-size :35px;
+   
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 16px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:70%;
+        margin: 2% auto;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .title{
+        font-family: "Assistant";
+        font-size :40px;
+    
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:4% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 18px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:60%;
+        margin: 2% auto;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .title{
+        font-family: "Assistant";
+        font-size :45px;
+     
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:3.5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 18px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:60%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .title{
+        font-family: "Assistant";
+        font-size :45px;
+      
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:2.5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 20px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:50%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    .title{
+        font-family: "Assistant";
+        font-size :50px;
+   
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:2.5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 22px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:35%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1200px) {
+    .title{
+        font-family: "Assistant";
+        font-size :55px;
+
+        color:black;
+        text-align: center;
+        
+        width:90%;
+        margin:2.5% auto;
+    }
+    .subtitle{
+        font-family: "AssistantR";
+        font-size: 24px;
+       
+        margin:3% auto;
+    width:85%;
+        color:black;
+        text-align: center;
+       
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width:30%;
+        margin: 0 auto;
+    }
+}

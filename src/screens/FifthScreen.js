@@ -6,7 +6,18 @@ import three from "../icons/wired-lineal-2433-number-3 (1).json"
 import four from "../icons/wired-lineal-2432-number-4 (1).json"
 import five from "../icons/wired-lineal-2431-number-5.json"
 import Button from "../components/Button/Button"
+import {Link as NavLink} from "react-scroll"
+import MyPresent from "../components/presentFromMe/MyPresent"
+import BringFriend from "../components/presentFromMe/BringFriend"
+import Takanon from "../components/takanon/Takanon"
+import { useNavigate } from "react-router-dom"
 const FifthScreen = () => {
+const navigate=useNavigate()
+  const handleNavigateHome = () => {
+    navigate('/תקנון');
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
     return (
       <div className={styles.container}>
         <div className={styles.title}>תהליך העבודה איתי</div>
@@ -21,7 +32,11 @@ const FifthScreen = () => {
         <div className={styles["line-divider"]}></div>
         <Line side="right" text="הדף שלך באוויר !" icon={five} />
         <div className={styles.center}><Button text="דניאל, אני רוצה לשמוע ממך עוד"/></div>
+        <MyPresent/>
+        <BringFriend/>
+    <NavLink to="/תקנון"  onClick={handleNavigateHome} className={styles.href}>לתקנון לחץ כאן</NavLink>
       </div>
+   
       
     );
   };

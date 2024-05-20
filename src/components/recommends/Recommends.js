@@ -57,7 +57,7 @@ const Recommends=()=>{
           },
         ];  
 return <>
-<div className={styles.title}>תשמעו את זה מהם..</div>
+<div className={styles.title} id="לקוחות ממליצים">תשמעו את זה מהם..</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (
