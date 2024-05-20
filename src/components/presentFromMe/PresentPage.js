@@ -18,9 +18,7 @@ const handleNavigateHome = () => {
     const phoneRef=useRef('')
     const emailRef=useRef('')
     const hasPageRef=useRef('')
-    const [goodName,setGoodName]=useState(true)
-    const [goodNumber,setGoodNumber]=useState(true)
-    const [goodMail,setGoodMail]=useState(true)
+  
     const [loading,setLoading]=useState(false)
 
 
@@ -34,17 +32,17 @@ const handleNavigateHome = () => {
         const email=emailRef?.current?.value
         const landing=hasPageRef?.current?.value
         if(name.trim().length<=2){
-        setGoodName(false)
+       
         alert("אנא הכנס שם מלא ")
         return;
         }
         if(phone.trim().length!==10){
-        setGoodNumber(false)
+      
         alert("אנא הכנס מספר טלפון הכולל 10 ספרות ")
         return;
             }
             if(!email.includes("@")){
-                setGoodMail(false)
+                
                 alert("אנא הכנס מייל תקין ")
                 return;
                 }
@@ -92,29 +90,11 @@ const handleNavigateHome = () => {
 </div>
     <div className={styles.inputsColumn}>
     <div className={styles.subTitle}> שם מלא </div>
-    <input className={goodName ? styles.input : styles.badInput} onChange={(e)=>{
-        if(e.target.value.trim().length>2){
-            setGoodName(true)
-        }
-    }}placeholder="שם מלא" ref={nameRef}></input>
+    <input className={styles.input} placeholder="שם מלא" ref={nameRef}></input>
         <div className={styles.subTitle}> מספר טלפון</div>
-    <input className={goodNumber ? styles.input: styles.badInput} placeholder="מספר טלפון" ref={phoneRef} onChange={(e)=>{
-        if(e.target.value.trim().length===10){
-            setGoodNumber(true)
-        }  
-         if(e.target.value.trim().length>10){
-            setGoodNumber(false)
-        }
-    }}></input>
+    <input className={styles.input} placeholder="מספר טלפון" ref={phoneRef}></input>
      <div className={styles.subTitle}> כתובת דוא''ל</div>
-    <input className={goodMail ? styles.input: styles.badInput} placeholder="דוא''ל" ref={emailRef} onChange={(e)=>{
-        if(e.target.value.includes('@')&&e.target.value.trim().length>5){
-            setGoodMail(true)
-        }  
-         if(!e.target.value.includes('@')&&e.target.value.trim().length>5){
-            setGoodMail(false)
-        }
-    }}></input>
+    <input className={styles.input} placeholder="דוא''ל" ref={emailRef}></input>
             <div className={styles.subTitle}> יש לך דף נחיתה ?</div>
     <input className={styles.input} placeholder="כן/לא" ref={hasPageRef}></input>
     <div className={styles.left}><button className={styles.button} onClick={submitHandler}>שלח</button></div>
