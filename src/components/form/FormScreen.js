@@ -1,11 +1,13 @@
 import { useRef } from "react"
 import styles from "./FormScreen.module.css"
+import { useNavigate } from "react-router-dom"
 
 
 const FormScreen=()=>{
 const nameRef=useRef(null)
 const phoneRef=useRef(null)
 const mailRef=useRef(null)
+const navigate=useNavigate()
 const submitHandler=async(e)=>{
     e.preventDefault()
     const name=nameRef.current.value
@@ -44,6 +46,8 @@ const response= await fetch('https://daniel-rozenblat-421d37a33cb7.herokuapp.com
         nameRef.current.value=""
         phoneRef.current.value=""
         mailRef.current.value=""
+        navigate("/תודה")
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 }
 

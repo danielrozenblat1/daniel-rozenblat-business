@@ -8,7 +8,10 @@ import nir from "../../images/home-x - ניר בן דוד.png"
 import avi from "../../images/אבי גולדברג - תדמית.png"
 import maharMilhama from "../../images/מחר מלחמה - שחריה לופט.png"
 import Button from "../Button/Button";
+import { useLocation } from "react-router-dom";
 const Works = (props) => {
+  const location = useLocation();
+ 
   const worksData = [
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
@@ -53,7 +56,7 @@ const Works = (props) => {
           
         </div>
       ))}
- <Button text="דניאל , בוא נדבר"/>
+ {location.pathname !== "/%D7%AA%D7%95%D7%93%D7%94" && <Button text="דניאל , בוא נדבר" />}
     </div>
     
   );
