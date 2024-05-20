@@ -92,7 +92,7 @@ export default function PersistentDrawerRight() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} sx={{background: "none", backdropFilter: 'blur(50px)' }}>
+      <AppBar position="fixed" open={open} sx={{background:"linear-gradient(744deg,#350051,#dbdcff9e 60%,#b8b4ca4d)",height:70,display:"flex",justifyContent:"center", backdropFilter: 'blur(50px)' }}>
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1, color: "black" }} component="div">
           <img src={iconn} style={{alignItems:"center", justifyContent:"center", display:"flex"}} alt="icon" width="50" />
@@ -118,7 +118,7 @@ export default function PersistentDrawerRight() {
           flexShrink: 0,
           '& .MuiDrawer-paper': {
             width: drawerWidth,
-           background: "none", backdropFilter: 'blur(50px)' 
+           background: "linear-gradient(744deg,#350051,#dbdcff9e 60%,#b8b4ca4d)", backdropFilter: 'blur(50px)' 
           },
         }}
         variant="persistent"
@@ -142,7 +142,7 @@ export default function PersistentDrawerRight() {
             {index === 2 && <ChatIcon />}
             {index === 3 && <ContactMailIcon />}
           </ListItemIcon>
-          <ListItemText primary={text} sx={{width:"100%"}} />
+          <ListItemText primary={text} sx={{width:"100%" }} />
         </ListItemButton>
       </ScrollLink>
     </ListItem>

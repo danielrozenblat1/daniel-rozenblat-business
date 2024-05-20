@@ -248,6 +248,431 @@ width:20%;
       object-fit: contain;
       width: 100%;;
     }
+  }
 
+  @media only screen  and (min-width: 450px) and (max-width: 550px) {
 
+    .title{
+      font-family: "Assistant";
+      font-size: 2rem;
+      text-align: center;
+      margin:2% auto;
+      direction: rtl;
+  
+  }
+  .description{
+  
+      font-family: "Assistant";
+      font-size:1.1rem;
+      text-align: center;
+      width:85%;
+      line-height: 2;
+      margin:2% auto;
+      direction: rtl;
+  }
+  
+  .bold {
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+  
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    
+  .bold2 {
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+     justify-content: center;
+  width:50%;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+       margin: 0 auto;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    .center{
+      width:95%;
+      justify-content: center;
+      display: flex;
+      margin:2% auto;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;;
+    }
+  }
+  @media only screen  and (min-width: 550px) and (max-width: 650px) {
+
+    .title{
+      font-family: "Assistant";
+      font-size: 2.2rem;
+      text-align: center;
+      margin:2% auto;
+      width:90%;
+      direction: rtl;
+  
+  }
+  .description{
+  
+      font-family: "Assistant";
+      font-size:1rem;
+      text-align: center;
+      width:85%;
+      line-height: 2;
+      margin:2% auto;
+      direction: rtl;
+  }
+  
+  .bold {
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+  
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    
+  .bold2 {
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+     justify-content: center;
+  width:50%;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+       margin: 0 auto;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    .center{
+      width:85%;
+      justify-content: center;
+      display: flex;
+      margin:2% auto;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;;
+    }
+  }
+
+  @media only screen  and (min-width: 650px) and (max-width: 850px) {
+
+    .title{
+      font-family: "Assistant";
+      font-size: 2.5rem;
+      text-align: center;
+      margin:2% auto;
+      width:85%;
+      direction: rtl;
+  
+  }
+  .description{
+  
+      font-family: "Assistant";
+      font-size:1.2rem;
+      text-align: center;
+      width:85%;
+      line-height: 2;
+      margin:2% auto;
+      direction: rtl;
+  }
+  
+  .bold {
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+  
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    
+  .bold2 {
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+     justify-content: center;
+  width:50%;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+       margin: 0 auto;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    .center{
+      width:85%;
+      justify-content: center;
+      display: flex;
+      margin:2% auto;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;;
+    }
+  }
+  @media only screen  and (min-width: 850px) and (max-width: 1050px) {
+
+    .title{
+      font-family: "Assistant";
+      font-size: 2.8rem;
+      text-align: center;
+      margin:2% auto;
+      width:85%;
+      direction: rtl;
+  
+  }
+  .description{
+  
+      font-family: "Assistant";
+      font-size:1.25rem;
+      text-align: center;
+      width:85%;
+      line-height: 2;
+      margin:2% auto;
+      direction: rtl;
+  }
+  
+  .bold {
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+  
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    
+  .bold2 {
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+     justify-content: center;
+  width:50%;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+       margin: 0 auto;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    .center{
+      width:75%;
+      justify-content: center;
+      display: flex;
+      margin:2% auto;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;;
+    }
+  }
+
+  @media only screen  and (min-width: 1050px) and (max-width: 1250px) {
+
+    .title{
+      font-family: "Assistant";
+      font-size: 3rem;
+      text-align: center;
+      margin:2% auto;
+      width:85%;
+      direction: rtl;
+  
+  }
+  .description{
+  
+      font-family: "Assistant";
+      font-size:1.4rem;
+      text-align: center;
+      width:85%;
+      line-height: 2;
+      margin:2% auto;
+      direction: rtl;
+  }
+  
+  .bold {
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      display: inline;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+  
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+      background: linear-gradient(to right, #ee172d50, #a1080865);
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    
+  .bold2 {
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+     justify-content: center;
+  width:50%;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .bold2::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      right: -5px;
+      bottom: -5px;
+       background: linear-gradient(to right, #6908a17d, #9817ee81);
+       margin: 0 auto;
+      z-index: -1;
+      border-radius: 0.5rem;
+      filter: blur(5px);
+      opacity: 0.5;
+    }
+    .center{
+      width:65%;
+      justify-content: center;
+      display: flex;
+      margin:2% auto;
+    }
+    .image{
+      object-fit: contain;
+      width: 100%;;
+    }
   }

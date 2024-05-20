@@ -53,7 +53,7 @@ const Works = (props) => {
           
         </div>
       ))}
- <Button text="אני רוצה דף נחיתה"/>
+ <Button text="דניאל , בוא נדבר"/>
     </div>
     
   );

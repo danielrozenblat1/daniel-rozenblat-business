@@ -10,8 +10,25 @@ import calm from "../icons/wired-lineal-629-yoga-male (1).json"
 import Box from "../components/Box"
 import Box2 from "../components/Box2"
 import Button from "../components/Button/Button"
+import { useEffect } from "react"
+import ScrollReveal from "scrollreveal"
 const SecondScreen=()=>{
+  useEffect(()=>{
+    ScrollReveal().reveal(`.${styles.title}`, {
+        duration: 1000,
+        distance: "30px",
+        origin: "top", // Start from the right side
+        easing: "ease-out",
+        reset:false,
+        viewFactor: 0.2,
+        interval: 300, // Delay between each element
+        delay: 200, // Delay before the animation starts
+        scale: 1, // Set scale to 1 or null
+      });
 
+  
+  },[])
+  
 
     return <>
     <div className={styles.background}>
@@ -30,7 +47,7 @@ const SecondScreen=()=>{
  <Box2 title="לקוח מועדף" icon={preferedClient} description="כשאתה עובד עם לידים שהגיעו אליך בגלל הערך שאתה מספק ולא שחתכת את המחיר שלך בחצי כדי לעבוד איתם - אתה נהנה הרבה יותר לעבוד איתם ולספק להם את המוצר שלך!"/>
   <Box2 title="רוגע ובטחון" icon={calm} description="כשאתה יודע שהלידים שלך מגיעים חמים - אתה מפסיק לפקפק בעסק שלך ובמוצר - אתה מתחיל להאמין שאתה שווה את המחיר שאתה דורש ואפילו יותר !"/>
   </div>
-  <div className={styles.center}><Button text="אני רוצה לקבל לידים חמים"/></div>
+  <div className={styles.center}><Button text="לחץ כאן כדי להתחיל לקבל לידים חמים"/></div>
 </div>
     </>
 }

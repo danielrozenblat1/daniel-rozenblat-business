@@ -71,8 +71,6 @@ direction: rtl;
     }
 }
 @media only screen and (min-width: 350px) and (max-width: 450px) {
-
-
     .container{
         display: flex;
         flex-direction: column;
@@ -90,6 +88,150 @@ direction: rtl;
     .subTitle{
         font-family: "AssistantR";
         font-size: 1.1rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:100px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:100px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2.7rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:100px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        width:90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        margin:3% auto;
+        text-align: center;
+    direction: rtl;
+    }
+    .line-divider {
+        width: 1px; /* רוחב הקו */
+        height:100px; /* גובה הקו, בגובה של המרכז */
+        background-color: black; /* צבע הקו */
+      
+      }
+      .center{
+        display: flex;
+        margin:2% auto;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 850px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 3.2rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    direction: rtl;
+    }
+    .subTitle{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
         width:90%;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         margin:3% auto;

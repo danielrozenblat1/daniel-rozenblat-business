@@ -140,3 +140,258 @@ width:70%;
     }
 
 }
+@media only screen  and (min-width: 450px) and (max-width: 550px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:90%;
+        margin:2% auto;
+    }
+    
+    .icon{
+        width:50%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .center{
+        display: flex;
+        width:70%;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:4% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 1.4rem;
+        text-align: right;
+        margin:2% auto;
+    width:95%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-family: "AssistantR";
+        font-size: 1rem;
+        text-align: right;
+        width:95%;
+     
+        direction: rtl;
+    }
+
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:90%;
+        margin:2% auto;
+    }
+    
+    .icon{
+        width:50%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .center{
+        display: flex;
+        width:70%;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:4% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: right;
+        margin:2% auto;
+    width:95%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        text-align: right;
+        width:95%;
+     
+        direction: rtl;
+    }
+
+}
+@media only screen  and (min-width: 650px) and (max-width: 850px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:90%;
+        margin:2% auto;
+    }
+    
+    .icon{
+        width:40%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .center{
+        display: flex;
+        width:70%;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:4% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 1.6rem;
+        text-align: right;
+        margin:2% auto;
+    width:95%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        text-align: right;
+        width:95%;
+     
+        direction: rtl;
+    }
+
+}
+@media only screen  and (min-width: 850px) and (max-width: 1050px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:90%;
+        margin:2% auto;
+    }
+    
+    .icon{
+        width:40%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .center{
+        display: flex;
+        width:70%;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:4% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2rem;
+        text-align: right;
+        margin:2% auto;
+    width:95%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        text-align: right;
+        width:95%;
+     
+        direction: rtl;
+    }
+
+}
+@media only screen  and (min-width: 1050px) and (max-width: 1250px) {
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:80%;
+        margin:2% auto;
+    }
+    
+    .icon{
+        width:40%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    .center{
+        display: flex;
+        width:70%;
+        margin:2% auto;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin:4% auto;
+    }
+    .title{
+        font-family: "Assistant";
+        font-size: 2rem;
+        text-align: right;
+        margin:2% auto;
+    width:85%;
+        direction: rtl;
+    }
+    .description{
+    
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        text-align: right;
+        width:85%;
+     
+        direction: rtl;
+    }
+
+}

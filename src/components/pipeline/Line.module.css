@@ -132,3 +132,49 @@
     }
 
   }
+  @media only screen and (min-width: 450px) and (max-width: 550px) {
+
+    .line-container-left {
+      display: flex;
+      align-items: center;
+    }
+    
+    .line-container-right {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse; /* הפיכת הכיוון לצד שמאל */
+    }
+    
+    .rectangle {
+      width: 75vw;
+      position: relative;
+      height: 60px;
+  
+      border-radius: 30px;
+      background-color: lightgray;
+      display: flex;
+      font-size: 18px;
+    direction: rtl;
+      font-family: "AssistantR";
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #763ad74a, #e8e8e8);
+      box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1), 0 0 8px 1px #888888;
+   
+    }
+    
+    .circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: lightgray;
+      box-shadow: 0 0 3px 1px #222;
+      display: flex;
+  
+      justify-content: center;
+      align-items: center;
+    position: absolute;
+      font-size: 14px;
+    }
+
+  }
