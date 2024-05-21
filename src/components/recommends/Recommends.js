@@ -61,21 +61,26 @@ return <>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (
-            <div key={index}>
+            <div key={index} itemscope itemtype="http://schema.org/Review">
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`שובל דעבול לקוחה ממליצה מספר ${index + 1}`} />
+                <img src={item.src} className={styles.image1} alt={`שובל דעבול לקוחה ממליצה מספר ${index + 1}`} itemprop="image"/>
               )}
               {item.type === 'video' && (
                 <video
                   style={{ width: "100%",display:"flex",objectFit:"cover", margin: "auto", height: "100%" }}
                   muted
                   controls
+                  autoPlay
+                  itemprop="image"
                 >
                   <source src={item.src} type="video/mp4" />
              
                 </video>
+         
               )}
+           <meta itemprop="datePublished" content={new Date().toISOString()} />
             </div>
+            
           ))}
         </Slider>
       </div>

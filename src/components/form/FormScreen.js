@@ -52,8 +52,8 @@ const response= await fetch('https://daniel-rozenblat-421d37a33cb7.herokuapp.com
 }
 
 return <>
-<div className={styles.subTitle} id="צור קשר">"בעל עסק טוב נמדד ביכולת שלו לקחת החלטות"</div>
-<div className={styles.title}>זמן לקחת החלטה</div>
+
+<div className={styles.title} id="צור קשר">זמן לקחת החלטה</div>
 <form className={styles.form}>
 <div className={styles.column}>
 <input className={styles.input} ref={nameRef} placeholder="שם מלא"></input>

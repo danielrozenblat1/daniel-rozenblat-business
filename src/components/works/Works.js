@@ -29,9 +29,9 @@ const Works = (props) => {
         <div className={styles.work} key={index}>
           {index % 2 === 0 ? (
             <>
-              <div className={styles.text}>
-                <h1 className={styles.title}>{work.title}</h1>
-                <p className={styles.description}>{work.description}</p>
+              <div className={styles.text} itemscope itemtype="http://schema.org/CreativeWork"> 
+                <h1 className={styles.title} itemprop="name">{work.title}</h1>
+                <p className={styles.description} itemprop="description">{work.description}</p>
                 <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
               </div>
               <div className={styles.imageContainer}>
@@ -45,9 +45,9 @@ const Works = (props) => {
                 <div className={styles.overlay}></div>
                 <a href={work.href} target="_blank"> <img className={styles.img} src={work.src} alt={work.title} /></a> 
               </div>
-              <div className={styles.text}>
-                <h1 className={styles.title}>{work.title}</h1>
-                <p className={styles.description}>{work.description}</p>
+              <div className={styles.text} itemscope itemtype="http://schema.org/CreativeWork">
+                <h1 className={styles.title} itemprop="name">{work.title}</h1>
+                <p className={styles.description} itemprop="description">{work.description}</p>
                 <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
               </div>
        

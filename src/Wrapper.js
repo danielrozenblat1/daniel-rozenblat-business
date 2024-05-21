@@ -14,10 +14,11 @@ import FifthScreen from './screens/FifthScreen';
 import From from './components/from to/From';
 import NavBar from './components/NavBar/NavBar';
 import BasicAccordion from './components/Akordion/Akordion';
+import { useLocation } from 'react-router-dom';
 
 
 const Wrapper=()=>{
-
+const location=useLocation()
 // useEffect(()=>{
 //     const socket = io('https://daniel-rozenblat-421d37a33cb7.herokuapp.com');
 
@@ -49,17 +50,18 @@ const Wrapper=()=>{
        {/* <NavBar/> */}
         <FirstScreen />
         <ThirdScreen/>
+        <Me/>
+        <FormScreen/>
         <From/>
         <SecondScreen/>
-     
-        <Me/>
+  
         <WhoFits/>
         <FormScreen/>
         <Works/>
         <BasicAccordion/>
         <FifthScreen/>
 
-        <Popped/>
+        {location.pathname !== "/%D7%AA%D7%95%D7%93%D7%94" && <Popped/>}
  </div>
 }
 export default Wrapper

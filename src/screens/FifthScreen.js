@@ -19,18 +19,28 @@ const navigate=useNavigate()
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
     return (
-      <div className={styles.container}>
-        <div className={styles.title}>תהליך העבודה איתי</div>
-        <div className={styles.subTitle}>אתה בטח שואל את עצמך "איך הוא יודע איך לגעת בקהל היעד שלי בכלל ? אני מכיר את קהל היעד שלי הכי טוב והוא לא מכיר אותו בכלל "</div>
+      <div className={styles.container}  itemscope itemtype="http://schema.org/WebPage">
+        <div className={styles.title}  itemprop="headline">תהליך העבודה איתי</div>
+        <div className={styles.subTitle} itemprop="description">אתה בטח שואל את עצמך "איך הוא יודע איך לגעת בקהל היעד שלי בכלל ? אני מכיר את קהל היעד שלי הכי טוב והוא לא מכיר אותו בכלל "</div>
         <Line side="right" text="טופס ניתוח ופיצוח קהל יעד" icon={one}/>
+        <div className={styles["line-divider"]}></div>
+        <div className={styles.description}>לפני תחילת העבודה את/ה תקבל טופס שבו נבין מי קהל היעד שלך לעומק , מה הבעיה העיקרית שלו , ואיך נוכל להשפיע עליו בצורה שתניע אותו להשאיר לך פרטים</div>
         <div className={styles["line-divider"]}></div>
         <Line side="left" text="פגישה איתי"  icon={two}/>
         <div className={styles["line-divider"]}></div>
+        <div className={styles.description}  itemprop="description">בפגישה איתי נעבור על הטופס שלך, אשאל אותך שאלות מקצועיות , נבין מה מדגישים בדף ואת המבנה שלו , בפגישה נעבור גם על פרטים טכניים שנחוצים להשלמת התהליך</div>
+        <div className={styles["line-divider"]}></div>
         <Line side="right" text="סקיצה ראשונית" icon={three} />
+        <div className={styles["line-divider"]}></div>
+        <div className={styles.description}  itemprop="description">אתה תקבל ממני סקיצה ראשונית לדף שלך ומעכשיו נפתח זמן התיקונים והשינויים</div>
         <div className={styles["line-divider"]}></div>
         <Line side="left" text="זמן תיקונים ושינויים" icon={four} />
         <div className={styles["line-divider"]}></div>
+        <div className={styles.description}  itemprop="description">זה הזמן לתיקונים אחרונים - צבעים, תמונות , מלל וכל מה ש"מציק לך בעין" </div>
+        <div className={styles["line-divider"]}></div>
         <Line side="right" text="הדף שלך באוויר !" icon={five} />
+        <div className={styles["line-divider"]}></div>
+        <div className={styles.description}  itemprop="description">לאחר סיום השינויים, הדף שלך עולה לאוויר וכולו שלך!</div>
         <div className={styles.center}><Button text="דניאל, אני רוצה לשמוע ממך עוד"/></div>
         <MyPresent/>
         <BringFriend/>

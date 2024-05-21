@@ -64,15 +64,15 @@ useEffect(()=>{
 
 
 return <>
-<div className={`${styles.wrapper} ${styles.playing} `}>
+<div className={`${styles.wrapper} ${styles.playing} `} itemscope itemtype="http://schema.org/WebPage">
  <div className={styles.shape}></div>
 <div className={styles.shape}></div>
 <div className={styles.icon}>
 <Player icon={coldToHot} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
 </div>
 <div className={styles.wrap}>
-<div className={styles.subTitle}>אתה מתכוון לממש את הפוטנציאל העסקי שלך?</div>
-<div className={styles.title}>גלה איך <div className={styles.bold}>דף נחיתה ממוקד</div> הופך את הלידים הקפואים שלך לרותחים</div>
+<div className={styles.subTitle} itemprop="headline">אתה מתכוון לממש את הפוטנציאל העסקי שלך?</div>
+<div className={styles.title} itemprop="mainEntityOfPage">גלה איך <div className={styles.bold}>דף נחיתה ממוקד</div> הופך את הלידים הקפואים שלך לרותחים</div>
 {/* <div className={styles.subTitle}>בעזרת דף נחיתה ממיר, תוכל להדגיש בצורה תדמיתית יותר את הערך שלך, להסיר חסמים ואי וודאויות מראש ולהגביר את האמון בך ובעסק שלך</div> */}
 <div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div>
 

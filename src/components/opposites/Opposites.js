@@ -56,22 +56,22 @@ const Opposites=(props)=>{
 
     
 return <>
-<div className={styles.wrapper}>
+<div className={styles.wrapper}  itemscope itemtype="http://schema.org/WebPage">
 
 <div className={styles.icon}>
 <Player icon={props.icon1} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
 </div>
 <div className={styles.wrap}>
-<div className={styles.title}>הסרת התנגדויות וחסמים</div>
-<div className={styles.description}>בעזרת המסרים שאתה תרצה לשתול , פתרון ההתנגדויות הנפוצות שאתה מקבל בשיחות המכירה שלך ועקרונות פסיכולוגים שמשולבים לאורך הדף - האמונות המגבילות של הליד שלך מתחילות להתמוסס לאט לאט</div>
+<div className={styles.title} itemprop="headline">הסרת התנגדויות וחסמים</div>
+<div className={styles.description} itemprop="description">בעזרת המסרים שתבחר "לשתול" + פתרון ההתנגדויות הנפוצות שאתה מקבל בשיחות המכירה שלך ועקרונות פסיכולוגים שמשולבים לאורך הדף - החסמים של הליד שלך מתחילים לרדת לאט לאט</div>
 </div> 
 
 </div>
 
 <div className={styles.wrapper}>
 <div className={styles.wrap}>
-<div className={styles.title}>יצירת אמון</div>
-<div className={styles.description}>ליד שלא מאמין בך לא יקנה ממך ! לכן המטרה של דף נחיתה היא להציג תוצאות מהמוצר שלך , להציג לקוחות ממליצים , להציג אותך ואת הסיפור שלך ולגרום לליד להאמין שאתה האדם הנכון עבורו ולרצות לשמוע ממך עוד </div>
+<div className={styles.title} itemprop="headline">יצירת אמון</div>
+<div className={styles.description} itemprop="description">ליד שלא מאמין בך לא יקנה ממך ! לכן המטרה של דף נחיתה היא להציג תוצאות מהמוצר שלך , להציג לקוחות ממליצים , להציג אותך ואת הסיפור שלך ,לגרום לליד להאמין שאתה האדם הנכון עבורו ולרצות לשמוע ממך עוד </div>
 </div> 
 <div className={styles.icon}>
 <Player icon={props.icon2} ref={playerRef2} size="100%" loop={true} onComplete={handleComplete2}></Player>
@@ -84,8 +84,8 @@ return <>
 <Player icon={props.icon3} ref={playerRef3} size="100%" loop={true} onComplete={handleComplete3}></Player>
 </div>
 <div className={styles.wrap}>
-<div className={styles.title}>תדמית</div>
-<div className={styles.description}>בעידן של היום עסק ללא תדמית דיגיטלית הוא עסק שמפסיד מאות לקוחות פוטנציאלים מדי יום ! , כשמישהו מתעניין בבעיה שאתה יכול לפתור לו הוא יחפש לקרוא עליך עוד ולראות הוכחות לכל ההבטחות שלך! אם התדמית שלך לא קיימת - הוא עובר למתחרים</div>
+<div className={styles.title} itemprop="headline">תדמית</div>
+<div className={styles.description} itemprop="description">בעידן של היום עסק ללא תדמית דיגיטלית הוא עסק שמפסיד מאות לקוחות פוטנציאלים מדי יום ! , כשמישהו מתעניין בבעיה שאתה יכול לפתור לו הוא יחפש לקרוא עליך עוד ולראות הוכחות לכל ההבטחות שלך! אם התדמית שלך לא קיימת - הוא עובר למתחרים</div>
 </div> 
 
 </div>

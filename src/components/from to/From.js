@@ -45,7 +45,7 @@ const From=()=>{
     return <>
     <div className={styles.title}>נמאס לך לקבל הודעות כמו..</div>
     <div className={styles.center}><img className={styles.image} src={cold} alt="הודעות של לידים קרים"/></div>
-    <div className={styles.description}>הודעות כאלה הן הודעות של <div className={styles.bold}>לידים קרים</div> והן נוצרות בגלל 2 דברים : <br/> <div className={styles.bold}>חוסר אמון + חוסר וודאות</div></div>
+    <div className={styles.description}>הודעות כאלה הן הודעות של לידים קרים והן נוצרות בגלל 2 דברים : <br/> <div className={styles.bold}>חוסר אמון + חוסר וודאות</div></div>
 
     <div className={styles.title}>"אז איך אני מתחיל לקבל הודעות כמו..? "</div>
     <div className={styles.center}><img className={styles.image} src={hot} alt="הודעות של לידים חמים"/></div>
