@@ -16,7 +16,7 @@ const Recommends=()=>{
         speed: 700,
         autoplaySpeed: 2500,
         infinite: true,
-        autoplay: true,
+   
         dots:false,
         
         slidesToShow: window.innerWidth < 550 ? 1 :
