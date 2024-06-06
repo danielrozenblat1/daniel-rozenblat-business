@@ -6,7 +6,7 @@ const Thanks=()=>{
 
 return <>
 <div className={styles.title}>תודה על האמון בי ! </div>
-<div className={styles.subtitle}>אתה בחלט בדרך הנכונה ! <br/> עד השיחה שלנו.. מוזמן לעיין שוב בדפים שהכנתי ללקוחות שלי</div>
+<div className={styles.subtitle}>אתה בהחלט בדרך הנכונה ! <br/> עד השיחה שלנו.. מוזמן לעיין שוב בדפים שהכנתי ללקוחות שלי</div>
 <Works/>
 </>
 
