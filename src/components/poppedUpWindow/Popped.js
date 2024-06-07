@@ -14,10 +14,10 @@ const navigate=useNavigate()
   };
 
   useEffect(() => {
-    // הצגת הטופס לראשונה אחרי 15 שניות
+    // הצגת הטופס לראשונה אחרי 20 שניות
     const initialTimeout = setTimeout(() => {
       setOpened(true);
-    }, 15000);
+    }, 20000);
 
     // הצגת הטופס כל 3 דקות
     const interval = setInterval(() => {

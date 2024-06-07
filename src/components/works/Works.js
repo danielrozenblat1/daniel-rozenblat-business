@@ -7,20 +7,25 @@ import regina from "../../images/רגינה אטן-איפור קבוע.png"
 import nir from "../../images/home-x - ניר בן דוד.png"
 import avi from "../../images/אבי גולדברג - תדמית.png"
 import maharMilhama from "../../images/מחר מלחמה - שחריה לופט.png"
+import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
+import naorLevi from "../../images/נאור לוי.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
   const location = useLocation();
  
   const worksData = [
+    
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
+    { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
     { title: "Home-x", description: "יועץ משכנתאות", src: nir ,href:"https://home-x.co.il"},
     { title: "מחר מלחמה", description: "כושר קרבי והכנה לצבא", src:maharMilhama ,href:"https://maharmilhama.co.il" },
     { title: "מתן חממי", description: "מומחה ומלווה בתחום הדרופשיפינג", src:matan ,href:"https://matan-project-e1e88.web.app" },
     { title: "אבי גולדברג", description: "תדמית - מנהל חוות שרתים", src:avi ,href:"https://avi-goldberg.vercel.app" },
     { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
-    { title: "רגינה אטן", description: "מומחית לאיפור קבוע", src:regina ,href:"https://reginaatan.co.il" }
+    { title: "רגינה אטן", description: "מומחית לאיפור קבוע", src:regina ,href:"https://reginaatan.co.il" },
+    { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" }
   ];
 
   return  (

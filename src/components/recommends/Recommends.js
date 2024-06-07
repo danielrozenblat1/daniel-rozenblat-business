@@ -6,6 +6,8 @@ import result4 from "../../images/ניקול ולארי חוות דעת.png"
 import result5 from "../../images/לירון רוקח חוות דעת.png"
 import result6 from "../../images/מחר מלחמה חוות דעת.png"
 import result7 from "../../images/ניר בן דוד חוות דעת.png"
+import result8 from "../../images/ולריה רמידובסקי חוות דעת.png"
+import result9 from "../../images/נאור לוי חוות דעת.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -29,6 +31,14 @@ const Recommends=()=>{
         {
           type: 'image',
           src: result1,
+        },
+        {
+          type: 'image',
+          src: result8,
+        },
+        {
+          type: 'image',
+          src: result9,
         },
         {
           type: 'video',
@@ -70,7 +80,7 @@ return <>
                   style={{ width: "100%",display:"flex",objectFit:"cover", margin: "auto", height: "100%" }}
                   muted
                   controls
-                  autoPlay
+                
                   itemprop="image"
                 >
                   <source src={item.src} type="video/mp4" />
