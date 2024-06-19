@@ -9,6 +9,7 @@ import avi from "../../images/אבי גולדברג - תדמית.png"
 import maharMilhama from "../../images/מחר מלחמה - שחריה לופט.png"
 import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
 import naorLevi from "../../images/נאור לוי.png"
+import michalabend from "../../images/מיכל אבנד צילום.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
@@ -18,6 +19,7 @@ const Works = (props) => {
     
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
+    { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
     { title: "Home-x", description: "יועץ משכנתאות", src: nir ,href:"https://home-x.co.il"},
     { title: "מחר מלחמה", description: "כושר קרבי והכנה לצבא", src:maharMilhama ,href:"https://maharmilhama.co.il" },
