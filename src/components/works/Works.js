@@ -10,6 +10,7 @@ import maharMilhama from "../../images/מחר מלחמה - שחריה לופט.p
 import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
 import naorLevi from "../../images/נאור לוי.png"
 import michalabend from "../../images/מיכל אבנד צילום.png"
+import adiMaman from "../../images/עדי ממן.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
@@ -18,6 +19,7 @@ const Works = (props) => {
   const worksData = [
     
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
+    { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},

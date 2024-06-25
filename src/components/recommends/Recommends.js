@@ -9,6 +9,7 @@ import result7 from "../../images/ניר בן דוד חוות דעת.png"
 import result8 from "../../images/ולריה רמידובסקי חוות דעת.png"
 import result9 from "../../images/נאור לוי חוות דעת.png"
 import result10 from "../../images/מיכל אבנד חוות דעת.png"
+import result11 from "../../images/עדי ממן חוות דעת.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -32,6 +33,10 @@ const Recommends=()=>{
         {
           type: 'image',
           src: result1,
+        },
+        {
+          type: 'image',
+          src: result11,
         },
         {
           type: 'image',
