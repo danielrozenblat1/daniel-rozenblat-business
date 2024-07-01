@@ -83,7 +83,7 @@ return <>
           {content.map((item, index) => (
             <div key={index} itemscope itemtype="http://schema.org/Review">
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`שובל דעבול לקוחה ממליצה מספר ${index + 1}`} itemprop="image"/>
+                <img src={item.src} className={styles.image1} alt={`דניאל רוזנבלט לקוחות ממליצים מספר ${index + 1}`} itemprop="image"/>
               )}
               {item.type === 'video' && (
                 <video
