@@ -28,6 +28,11 @@ const Takanon = () => {
 <p className={styles.sentence}> השימוש באתר כפי שמוגדר בתקנון זה מהווה הסכמה מוחלטת ובלעדית לכל התנאים וההגבלות שבתקנון זה.</p>
 <p className={styles.sentence}>המשתמש אינו רשאי להשתמש באתר אם אינו מסכים לתקנון זה.</p>
 
+<h2 className={styles.subHeader}>נגישות ו/או הנגשת הדף</h2>
+
+<p className={styles.sentence}>האחריות על נגישות ו/או הנגשת הדף היא על הלקוח בלבד</p>
+<p className={styles.sentence}>הלקוח לא יבוא בטענות אל DR בכל הקשור לנגישות ו/או הנגשת הדף</p>
+
 
 <h2 className={styles.subHeader}> קניין רוחני:</h2>
 <p className={styles.sentence}> כל זכויות היוצרים והקניין הרוחני באתר לרבות
