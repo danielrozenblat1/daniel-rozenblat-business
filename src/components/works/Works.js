@@ -29,7 +29,6 @@ const Works = (props) => {
     { title: "גל ביוטי", description: "איפור קבוע לפיגמנט שפתיים", src: galBeauty,href:"https://galbeauty.co.il" },
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
     { title: "Home-x", description: "יועץ משכנתאות", src: nir ,href:"https://home-x.co.il"},
-    { title: "מחר מלחמה", description: "כושר קרבי והכנה לצבא", src:maharMilhama ,href:"https://maharmilhama.co.il" },
     { title: "רגינה אטן", description: "מומחית לאיפור קבוע", src:regina ,href:"https://reginaatan.co.il" },
     { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
     { title: "מתן חממי", description: "מומחה ומלווה בתחום הדרופשיפינג", src:matan ,href:"https://matan-project-e1e88.web.app" },
