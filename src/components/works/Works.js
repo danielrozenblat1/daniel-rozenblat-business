@@ -6,13 +6,14 @@ import matan from "../../images/מתן חממי - דרופשיפינג.png"
 import regina from "../../images/רגינה אטן-איפור קבוע.png"
 import nir from "../../images/home-x - ניר בן דוד.png"
 import avi from "../../images/אבי גולדברג - תדמית.png"
-import maharMilhama from "../../images/מחר מלחמה - שחריה לופט.png"
 import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
 import naorLevi from "../../images/נאור לוי.png"
 import michalabend from "../../images/מיכל אבנד צילום.png"
 import adiMaman from "../../images/עדי ממן.png"
 import sapirDayan from "../../images/ספיר דיין.png"
 import galBeauty from "../../images/גל יאקובצאק.png"
+import tomerGedi from "../../images/תומר גדי.png"
+import saraAnanya from "../../images/שרה אנניה.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
@@ -20,9 +21,12 @@ const Works = (props) => {
  
   const worksData = [
     
-    { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
+ 
     { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
+    { title: "תומר גדי", description: "מומחית ללימוד ציפורניים", src: tomerGedi,href:"https://tomernails.co.il" },
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
+    { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
+    { title: "שרה אנניה", description: "מוחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" },
