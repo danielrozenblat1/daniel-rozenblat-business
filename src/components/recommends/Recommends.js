@@ -4,13 +4,17 @@ import result2 from "../../videos/מתן חממי חוות דעת.mp4"
 import result3 from "../../images/חוות דעת דניאל טורייב.png"
 import result4 from "../../images/ניקול ולארי חוות דעת.png"
 import result5 from "../../images/לירון רוקח חוות דעת.png"
-import result6 from "../../images/מחר מלחמה חוות דעת.png"
+
 import result7 from "../../images/ניר בן דוד חוות דעת.png"
 import result8 from "../../images/ולריה רמידובסקי חוות דעת.png"
 import result9 from "../../images/נאור לוי חוות דעת.png"
 import result10 from "../../images/מיכל אבנד חוות דעת.png"
 import result11 from "../../images/עדי ממן חוות דעת.png"
 import result12 from "../../images/ספיר דיין חוות דעת.png"
+import result14 from "../../images/אוריאן חממי חווות דעת.png"
+import result15 from "../../images/שרה אנניה חוות דעת.png"
+import result16 from "../../images/תומר גדי חוות דעת.png"
+import result17 from "../../images/אופק ברקוביץ חוות דעת.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -33,15 +37,32 @@ const Recommends=()=>{
       const content = [
         {
           type: 'image',
-          src: result1,
-        },
-        {
-          type: 'image',
           src: result11,
         },
         {
           type: 'image',
+          src: result16,
+        },
+        {
+          type: 'image',
+          src: result15,
+        },
+        {
+          type: 'image',
+          src: result14,
+        },
+        {
+          type: 'image',
+          src: result1,
+        },
+     
+        {
+          type: 'image',
           src: result12,
+        },
+        {
+          type: 'image',
+          src: result17,
         },
         {
           type: 'image',
@@ -59,10 +80,7 @@ const Recommends=()=>{
           type: 'video',
           src: result2,
         },
-        {
-          type: 'image',
-          src: result3,
-        },
+
         {
           type: 'image',
           src: result4,
@@ -72,13 +90,14 @@ const Recommends=()=>{
           type: 'image',
           src: result5,
         },
-          {
-            type: 'image',
-            src: result6,
-          },
+     
           {
             type: 'image',
             src: result7,
+          },
+          {
+            type: 'image',
+            src: result3,
           },
         ];  
 return <>

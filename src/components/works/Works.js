@@ -5,7 +5,7 @@ import danielTurayev from "../../images/דניאל טורייב - פיננסים
 import matan from "../../images/מתן חממי - דרופשיפינג.png"
 import regina from "../../images/רגינה אטן-איפור קבוע.png"
 import nir from "../../images/home-x - ניר בן דוד.png"
-import avi from "../../images/אבי גולדברג - תדמית.png"
+import orianHamami from "../../images/אוריאן חממי.png"
 import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
 import naorLevi from "../../images/נאור לוי.png"
 import michalabend from "../../images/מיכל אבנד צילום.png"
@@ -27,6 +27,7 @@ const Works = (props) => {
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
     { title: "שרה אנניה", description: "מוחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
+    { title: "אוריאן חממי", description: "סלון ביוטי", src:orianHamami ,href:"https://orianhamami.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" },
@@ -34,9 +35,8 @@ const Works = (props) => {
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
     { title: "Home-x", description: "יועץ משכנתאות", src: nir ,href:"https://home-x.co.il"},
     { title: "רגינה אטן", description: "מומחית לאיפור קבוע", src:regina ,href:"https://reginaatan.co.il" },
-    { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
     { title: "מתן חממי", description: "מומחה ומלווה בתחום הדרופשיפינג", src:matan ,href:"https://matan-project-e1e88.web.app" },
-    { title: "אבי גולדברג", description: "תדמית - מנהל חוות שרתים", src:avi ,href:"https://avi-goldberg.vercel.app" },
+    { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
   ];
 
   return  (
