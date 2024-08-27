@@ -14,6 +14,8 @@ import sapirDayan from "../../images/ספיר דיין.png"
 import galBeauty from "../../images/גל יאקובצאק.png"
 import tomerGedi from "../../images/תומר גדי.png"
 import saraAnanya from "../../images/שרה אנניה.png"
+import inbalRozenfeld from "../../images/ענבל רוזנפלד.png"
+import lance from "../../images/לאנס.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
@@ -29,6 +31,8 @@ const Works = (props) => {
     { title: "שרה אנניה", description: "מוחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
     { title: "אוריאן חממי", description: "סלון ביוטי", src:orianHamami ,href:"https://orianhamami.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
+    { title: "Lance", description: "קייטרינג לאירועים", src:lance ,href:"https://lancebuffet.co.il" },
+    { title: "ענבל רוזנפלד", description: "אקדמיה ללימוד ציפורניים", src:inbalRozenfeld ,href:"https://inbalrozenfeld.co.il" },
     { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" },
     { title: "גל ביוטי", description: "איפור קבוע לפיגמנט שפתיים", src: galBeauty,href:"https://galbeauty.co.il" },

@@ -15,6 +15,8 @@ import result14 from "../../images/אוריאן חממי חווות דעת.png"
 import result15 from "../../images/שרה אנניה חוות דעת.png"
 import result16 from "../../images/תומר גדי חוות דעת.png"
 import result17 from "../../images/אופק ברקוביץ חוות דעת.png"
+import result18 from "../../images/ענבל רוזנפלד חוות דעת.png"
+import result19 from "../../videos/לאנס חוות דעת.mp4"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -55,11 +57,15 @@ const Recommends=()=>{
           type: 'image',
           src: result1,
         },
-     
+        {
+          type: 'image',
+          src: result18,
+        },
         {
           type: 'image',
           src: result12,
         },
+       
         {
           type: 'image',
           src: result17,
@@ -76,6 +82,7 @@ const Recommends=()=>{
           type: 'image',
           src: result9,
         },
+    
         {
           type: 'video',
           src: result2,
@@ -98,6 +105,10 @@ const Recommends=()=>{
           {
             type: 'image',
             src: result3,
+          },
+          {
+            type: 'video',
+            src: result19,
           },
         ];  
 return <>
