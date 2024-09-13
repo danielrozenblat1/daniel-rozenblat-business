@@ -49,15 +49,18 @@ const location=useLocation()
         <PersistentDrawerRight/>
        {/* <NavBar/> */}
         <FirstScreen />
+       
         <ThirdScreen/>
+      
         <Me/>
+        <Works/>
         <FormScreen/>
         <From/>
         {/* <SecondScreen/> */}
   
         <WhoFits/>
         <FormScreen/>
-        <Works/>
+     
         <BasicAccordion/>
         <FifthScreen/>
 

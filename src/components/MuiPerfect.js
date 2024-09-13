@@ -21,8 +21,8 @@ import InfoIcon from '@mui/icons-material/Info';
 import ChatIcon from '@mui/icons-material/Chat';
 import QusetionIcon from '@mui/icons-material/QuestionAnswer';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
-import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
-import iconn from "../images/דניאל אייקון.png"
+import WebIcon from '@mui/icons-material/Language';
+import iconn from "../images/דניאל אייקון.png";
 import { Link as ScrollLink } from "react-scroll";
 
 const drawerWidth = 240;
@@ -43,12 +43,6 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
       }),
       marginRight: 0,
     }),
-    /**
-     * This is necessary to enable the selection of content. In the DOM, the stacking order is determined
-     * by the order of appearance. Following this rule, elements appearing later in the markup will overlay
-     * those that appear earlier. Since the Drawer comes after the Main content, this adjustment ensures
-     * proper interaction with the underlying content.
-     */
     position: 'relative',
   }),
 );
@@ -74,7 +68,6 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   padding: theme.spacing(0, 1),
-  // necessary for content to be below app bar
   ...theme.mixins.toolbar,
   justifyContent: 'flex-start',
 }));
@@ -103,7 +96,7 @@ export default function PersistentDrawerRight() {
       <AppBar position="fixed" open={open} sx={{background:"linear-gradient(744deg,#350051,#dbdcff9e 60%,#b8b4ca4d)",height:70,display:"flex",justifyContent:"center", backdropFilter: 'blur(50px)' }}>
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1, color: "black" }} component="div">
-          <img src={iconn} style={{alignItems:"center", justifyContent:"center", display:"flex"}} alt="icon" width="50" />
+            <img src={iconn} style={{alignItems:"center", justifyContent:"center", display:"flex"}} alt="icon" width="50" />
           </Typography>
           <IconButton
             color="inherit"
@@ -118,7 +111,6 @@ export default function PersistentDrawerRight() {
       </AppBar>
       <Main open={open}>
         <DrawerHeader />
-
       </Main>
       <Drawer
         sx={{
@@ -126,7 +118,8 @@ export default function PersistentDrawerRight() {
           flexShrink: 0,
           '& .MuiDrawer-paper': {
             width: drawerWidth,
-           background: "linear-gradient(744deg,#350051,#dbdcff9e 60%,#b8b4ca4d)", backdropFilter: 'blur(50px)' 
+            background: "linear-gradient(744deg,#350051,#dbdcff9e 60%,#b8b4ca4d)",
+            backdropFilter: 'blur(50px)' 
           },
         }}
         variant="persistent"
@@ -139,24 +132,25 @@ export default function PersistentDrawerRight() {
           </IconButton>
         </DrawerHeader>
         <Divider />
-        <List sx={{ direction: "rtl", height: "60%",display:"flex",justifyContent:"space-evenly",flexDirection:"column" }}>
-  {['קצת עלי', 'לקוחות ממליצים', 'שאלות נפוצות', 'צור קשר','מתנה ממני'].map((text, index) => (
-    <ListItem key={text} disablePadding >
-      <ScrollLink to={text} spy={true} smooth={true} duration={1500} offset={-70} onClick={closeDrawer}>
-        <ListItemButton>
-          <ListItemIcon>
-            {index === 0 && <InfoIcon />}
-            {index === 1 && <ChatIcon />}
-            {index === 2 && <QusetionIcon />}
-            {index === 3 && <ContactMailIcon />}
-            {index === 4 && <GiftIcon/>}
-          </ListItemIcon>
-          <ListItemText primary={text} sx={{width:"100%" }} />
-        </ListItemButton>
-      </ScrollLink>
-    </ListItem>
-  ))}
-</List>
+        <List sx={{ direction: "rtl", height: "60%", display:"flex", justifyContent:"space-evenly", flexDirection:"column" }}>
+          {['קצת עלי', 'לקוחות ממליצים', 'שאלות נפוצות', 'צור קשר', 'מתנה ממני', 'עבודות'].map((text, index) => (
+            <ListItem key={text} disablePadding >
+              <ScrollLink to={text} spy={true} smooth={true} duration={1500} offset={-70} onClick={closeDrawer}>
+                <ListItemButton>
+                  <ListItemIcon>
+                    {index === 0 && <InfoIcon />}
+                    {index === 1 && <ChatIcon />}
+                    {index === 2 && <QusetionIcon />}
+                    {index === 3 && <ContactMailIcon />}
+                    {index === 4 && <GiftIcon />}
+                    {index === 5 && <WebIcon />}
+                  </ListItemIcon>
+                  <ListItemText primary={text} sx={{width:"100%" }} />
+                </ListItemButton>
+              </ScrollLink>
+            </ListItem>
+          ))}
+        </List>
       </Drawer>
     </Box>
   );

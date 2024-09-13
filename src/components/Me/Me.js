@@ -5,7 +5,7 @@ import daniel3 from "../../videos/דניאל רוזנבלט סרטון תדמי�
 import Recommends from "../recommends/Recommends"
 const Me=()=>{
 return <>
-<div className={styles.subTitle} id="קצת עלי">אז מי אני?</div>
+<div className={styles.subTitle} id="קצת עלי"> מי אני?</div>
 <h1 className={styles.title}>דניאל רוזנבלט</h1>
 <div className={styles.description}>"עזרתי לעשרות עסקים להשפיע על קהל היעד שלהם בעזרת ניתוח מדוייק של קהל היעד שלהם ,מלל מדוייק שמצליח להזיז את קהל היעד מרגש א' לרגש ב' וחווית משתמש נגישה ,קלילה ומניעה לפעולה. <br/> כל עוד אני יכול לתת מהידע שלי ולעזור לעסקים להרוויח ממנו - אני כאן !"</div>
 

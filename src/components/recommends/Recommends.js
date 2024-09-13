@@ -17,6 +17,7 @@ import result16 from "../../images/תומר גדי חוות דעת.png"
 import result17 from "../../images/אופק ברקוביץ חוות דעת.png"
 import result18 from "../../images/ענבל רוזנפלד חוות דעת.png"
 import result19 from "../../videos/לאנס חוות דעת.mp4"
+import result20 from "../../videos/מירב בישולים חוות דעת.mp4"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -109,6 +110,10 @@ const Recommends=()=>{
           {
             type: 'video',
             src: result19,
+          },
+          {
+            type: 'video',
+            src: result20,
           },
         ];  
 return <>
