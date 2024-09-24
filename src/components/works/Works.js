@@ -29,7 +29,7 @@ const Works = (props) => {
     { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
     { title: "תומר גדי", description: "מומחית ללימוד ציפורניים", src: tomerGedi,href:"https://tomernails.co.il" },
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
-    { title: "שרה אנניה", description: "מוחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
+    { title: "שרה אנניה", description: "מומחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
     { title: "מאי ליין", description: "לימודי ציפורניים וגבות", src: mayLine,href:"https://mayline.co.il" },
     { title: "אוריאן חממי", description: "סלון ביוטי", src:orianHamami ,href:"https://orianhamami.co.il" },
