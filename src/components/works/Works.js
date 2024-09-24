@@ -17,6 +17,7 @@ import saraAnanya from "../../images/שרה אנניה.png"
 import inbalRozenfeld from "../../images/ענבל רוזנפלד.png"
 import meravishulim from "../../images/מירב בישולים.png"
 import lance from "../../images/לאנס.png"
+import mayLine from "../../images/מאי סויסה.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 const Works = (props) => {
@@ -28,8 +29,9 @@ const Works = (props) => {
     { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
     { title: "תומר גדי", description: "מומחית ללימוד ציפורניים", src: tomerGedi,href:"https://tomernails.co.il" },
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
-    { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
     { title: "שרה אנניה", description: "מוחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
+    { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },
+    { title: "מאי ליין", description: "לימודי ציפורניים וגבות", src: mayLine,href:"https://mayline.co.il" },
     { title: "אוריאן חממי", description: "סלון ביוטי", src:orianHamami ,href:"https://orianhamami.co.il" },
     { title: "ענבל רוזנפלד", description: "אקדמיה ללימוד ציפורניים", src:inbalRozenfeld ,href:"https://inbalrozenfeld.co.il" },
     { title: "מירב בישולים", description: "בישולים בייתיים", src:meravishulim ,href:"https://Meravbishulim.co.il" },
