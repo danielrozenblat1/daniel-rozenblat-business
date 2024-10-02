@@ -129,7 +129,7 @@ z-index: -1;
 
     .sliderContainer {
 
-        width: 80%;
+        width:80%;
         margin: auto;
         height: auto;
         z-index: -1;
@@ -160,9 +160,9 @@ z-index: -1;
         object-fit: cover;
       }
       .title{
-        font-size: 2.7rem;
+        font-size: 2rem;
         direction: rtl;
-        width:75%;
+        width:85%;
         color:black;
         justify-content: center;
         text-align: center;

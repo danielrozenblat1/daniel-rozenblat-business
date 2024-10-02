@@ -71,15 +71,16 @@ return <>
 <Player icon={coldToHot} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
 </div>
 <div className={styles.wrap}>
-<div className={styles.subTitle} itemprop="headline"></div>
-<div className={styles.title} itemprop="mainEntityOfPage">איך לשלוט במה שהמתעניינים רואים <div className={styles.bold}>ומבינים</div> על העסק שלך לפני השיחה איתם</div>
+{/* <div className={styles.subTitle} itemprop="headline">דף נחיתה שממוקד בקהל היעד שלך עוזר לך</div> */}
+<div className={styles.title} itemprop="mainEntityOfPage"> הדרך המוכחת להשיג יותר לקוחות, יותר מכירות ויותר רווחים  <br/><div className={styles.bold}>בפחות זמן ובפחות מאמץ</div> </div>
 {/* <div className={styles.subTitle}>בעזרת דף נחיתה ממיר, תוכל להדגיש בצורה תדמיתית יותר את הערך שלך, להסיר חסמים ואי וודאויות מראש ולהגביר את האמון בך ובעסק שלך</div> */}
-<div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div>
+{/* <div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div> */}
 
 </div>
 
 
 </div>
+<div className={styles.title} style={{textAlign:"center"}}><div className={styles.bold}>דף נחיתה שממוקד בקהל היעד</div></div>
 </>
 
 
