@@ -15,6 +15,7 @@ import From from './components/from to/From';
 import NavBar from './components/NavBar/NavBar';
 import BasicAccordion from './components/Akordion/Akordion';
 import { useLocation } from 'react-router-dom';
+import Recommends from './components/recommends/Recommends';
 
 
 const Wrapper=()=>{
@@ -50,10 +51,11 @@ const location=useLocation()
        {/* <NavBar/> */}
         <FirstScreen />
        
-        <ThirdScreen/>
+        {/* <ThirdScreen/> */}
       
-        <Me/>
+        <Recommends/>
         <Works/>
+        <Me/>
         <FormScreen/>
         <From/>
         {/* <SecondScreen/> */}

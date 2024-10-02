@@ -14,7 +14,7 @@ return <>
 <video className={styles.video} src={daniel2} alt="דניאל רוזנבלט סרטון תדמית 2" autoPlay loop muted playsInline controls/>
 <video className={styles.video} src={daniel3} alt="דניאל רוזנבלט סרטון תדמית 3" autoPlay loop muted playsInline controls/>
 </div>
-<Recommends/>
+
 </>
 
 

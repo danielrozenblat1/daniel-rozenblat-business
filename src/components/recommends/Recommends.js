@@ -19,6 +19,7 @@ import result18 from "../../images/ענבל רוזנפלד חוות דעת.png"
 import result19 from "../../videos/לאנס חוות דעת.mp4"
 import result20 from "../../videos/מירב בישולים חוות דעת.mp4"
 import result21 from "../../images/מאי סויסה חוות דעת.png"
+import result22 from "../../images/לורין נקש חוות דעת.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -58,6 +59,10 @@ const Recommends=()=>{
         {
           type: 'image',
           src: result1,
+        },
+        {
+          type: 'image',
+          src: result22,
         },
         {
           type: 'image',

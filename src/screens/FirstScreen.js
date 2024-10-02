@@ -1,7 +1,7 @@
 import styles from "./FirstScreen.module.css"
 import {useEffect,useRef} from "react"
 import { Player } from "@lordicon/react";
-import coldToHot from "../icons/wired-lineal-818-cold-temperature.json"
+import coldToHot from "../icons/wired-lineal-1059-music-stage-lights-concert-hover-pinch (1).json"
 import ScrollReveal from "scrollreveal";
 import { Link as ScrollLink } from "react-scroll";
 const FirstScreen=(props)=>{
@@ -71,8 +71,8 @@ return <>
 <Player icon={coldToHot} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
 </div>
 <div className={styles.wrap}>
-<div className={styles.subTitle} itemprop="headline">אתה מתכוון לממש את הפוטנציאל העסקי שלך?</div>
-<div className={styles.title} itemprop="mainEntityOfPage">גלה איך <div className={styles.bold}>דף נחיתה ממוקד</div> הופך את הלידים הקפואים שלך לרותחים</div>
+<div className={styles.subTitle} itemprop="headline"></div>
+<div className={styles.title} itemprop="mainEntityOfPage">איך לשלוט במה שהמתעניינים רואים <div className={styles.bold}>ומבינים</div> על העסק שלך לפני השיחה איתם</div>
 {/* <div className={styles.subTitle}>בעזרת דף נחיתה ממיר, תוכל להדגיש בצורה תדמיתית יותר את הערך שלך, להסיר חסמים ואי וודאויות מראש ולהגביר את האמון בך ובעסק שלך</div> */}
 <div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div>
 
