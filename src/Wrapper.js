@@ -54,14 +54,15 @@ const location=useLocation()
         {/* <ThirdScreen/> */}
       
         <Recommends/>
+        {/* <FormScreen/> */}
         <Works/>
         <Me/>
         <FormScreen/>
-        <From/>
+        {/* <From/> */}
         {/* <SecondScreen/> */}
   
-        <WhoFits/>
-        <FormScreen/>
+        {/* <WhoFits/> */}
+      
      
         <BasicAccordion/>
         <FifthScreen/>
