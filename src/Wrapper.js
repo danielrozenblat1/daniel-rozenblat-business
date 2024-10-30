@@ -46,7 +46,7 @@ const location=useLocation()
 //   }
 // };
 
-    return <div style={{width:'100%', justifyContent:"center", overflow:"hidden"}}>
+    return <div style={{width:'100%', justifyContent:"center", overflow:"hidden" ,background:"linear-gradient(135deg, rgba(255,189,147,0.7) 0%, rgba(183,120,231,0.7030461842940301) 10%, rgba(255,189,147,0.7) 20%, rgba(183,120,231,0.7002450638458508) 30%, rgba(255,189,147,0.7) 40%, rgba(183,120,231,0.7030461842940301) 50%, rgba(255,189,147,0.7) 60%, rgba(183,120,231,0.7002450638458508) 70%, rgba(255,189,147,0.7) 80%, rgba(183,120,231,0.7002450638458508) 90%, rgba(255,189,147,0.7) 100%)"}}>
         <PersistentDrawerRight/>
        {/* <NavBar/> */}
         <FirstScreen />

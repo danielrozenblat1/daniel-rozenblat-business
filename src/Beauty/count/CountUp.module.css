@@ -1,0 +1,129 @@
+.font{
+    font-family: "Assistant";
+    font-size: 3rem;
+    display: flex;
+    color:rgb(89, 52, 16);
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; 
+    margin:2% auto;
+    width:30%;
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly; 
+width:100%;
+margin:0 auto;
+ flex-wrap: wrap;
+}
+.explain{
+    font-family: "AssistantR";
+    font-size: 1.2rem;
+    width:100%;
+    color:rgb(89, 52, 16);
+}
+@media only screen and (max-width: 350px){
+    .font{
+        font-family: "Assistant";
+        font-size: 2.5rem;
+        width:75vw;
+        display: flex;
+        color:rgb(89, 52, 16);
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 5% auto;
+    }
+    .explain{
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        width:100%;
+        color:rgb(89, 52, 16);
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 650px){
+    .font{
+        font-family: "Assistant";
+        font-size:3rem;
+        display: flex;
+        color:rgb(89, 52, 16);
+        width:75vw;
+        margin:3% auto;
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 5% auto;
+    }
+    .explain{
+        font-family: "AssistantR";
+        font-size: 1.1rem;
+        width:100%;
+        color:rgb(89, 52, 16);
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 1050px){
+    .font{
+        font-family: "Assistant";
+        font-size:3rem;
+        display: flex;
+        width:35vw;
+        color:rgb(89, 52, 16);
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 5% auto;
+    }
+    .explain{
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        width:100%;
+        color:rgb(89, 52, 16);
+    }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1250px){
+    .font{
+        font-family: "Assistant";
+        font-size:3.5rem;
+        display: flex;
+        width:35vw;
+        color:rgb(89, 52, 16);
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 5% auto;
+    }
+    .explain{
+        font-family: "AssistantR";
+        font-size: 1.4rem;
+        width:100%;
+        color:rgb(89, 52, 16);
+    }
+}
