@@ -329,35 +329,70 @@
             }
           }
           </script>
-
+          <script>
+            window.args = {
+              sitekey   : 'c119b88eaafa6e557d580b8b1409694a',
+              position  : 'Right',
+              language  : 'HE',
+              container : '',
+              icon : '',
+              access : 'https://vee-crm.com',
+              styles : {
+                primary_color: '#177fab',
+                secondary_color: '#b586ff',
+                background_color: '#f6f6f6',
+                primary_text_color: '#636363',
+                headers_text_color: '#105675',
+                primary_font_size: 14,
+                slider_left_color:  '#b586ff',
+                slider_right_color:  '#177fab',
+                icon_vertical_position: 'top',
+                icon_offset_top: 100,
+                icon_offset_bottom: 0,
+                highlight_focus_color: '#177fab',
+                toggler_icon_color: '#ffffff',
+              },
+              links : {
+                acc_policy: 'https://danielrozenblat.co.il/דניאל רוזנבלט הצהרת נגישות.pdf',
+                additional_link: 'https://vee.co.il/pricing/'
+              },
+              options : {
+                open: false,
+                aaa: false,
+                hide_tablet: false,
+                hide_mobile: false,
+                button_size_tablet: 44,
+                button_size_mobile: 34,
+                position_tablet: 'Right',
+                position_mobile: 'Right',
+                icon_vertical_position_tablet: 'top',
+                icon_vertical_position_mobile: 'top',
+                icon_offset_top_tablet: 100,
+                icon_offset_bottom_tablet: 0,
+                icon_offset_top_mobile: 100,
+                icon_offset_bottom_mobile: 0,
+                keyboard_shortcut: true,
+                hide_purchase_link: false,
+                display_checkmark_icon: false,
+                active_toggler_color: '#118f38'
+              },
+              exclude : []
+            };
+            
+            (function(doc, head, body){
+              var embed = doc.createElement('script');
+              embed.src = window.args['access'] + '/js/';
+              embed.defer = true;
+              embed.crossOrigin = 'anonymous';
+              embed.setAttribute('data-cfasync', true );
+              body? body.appendChild(embed) : head.appendChild(embed);
+            })(document, document.head, document.body);
+            </script>
     
     <title>דניאל רוזנבלט - דפי נחיתה</title>
   </head>
   <body>
-    <script>
-      (function(d){
-        var s = d.createElement("script");
-        /* uncomment the following line to override default position*/
-         s.setAttribute("data-position", 3);
-        /* uncomment the following line to override default size (values: small, large)*/
-        /* s.setAttribute("data-size", "small");*/
-        /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
-        /* s.setAttribute("data-language", "language");*/
-        /* uncomment the following line to override color set via widget (e.g., #053f67)*/
-         s.setAttribute("data-color", "#222");
-        /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
-        s.setAttribute("data-type", "1");
-        /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
-        /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility")";*/
-        /* uncomment the following line to override support on mobile devices*/
-        /* s.setAttribute("data-mobile", true);*/
-        /* uncomment the following line to set custom trigger action for accessibility menu*/
-        /* s.setAttribute("data-trigger", "triggerId")*/
-        s.setAttribute("data-account", "Z6z6lbneiG");
-        s.setAttribute("src", "https://cdn.userway.org/widget.js");
-        (d.body || d.head).appendChild(s);
-      })(document)
-      </script>
+   
       <noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
 
     
