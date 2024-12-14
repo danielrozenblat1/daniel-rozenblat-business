@@ -1,15 +1,14 @@
+/* Default styles for larger screens */
 .container {
   display: flex;
   align-items: center;
   margin: 15px auto;
   background: linear-gradient(135deg, rgba(242,242,242,1) 30%, rgba(255,230,230,1) 50%, rgba(245,245,245,1) 70%);
   padding: 0.2rem 0.55rem;
-  border-radius: 0.5rem;
+  border-radius: 15px;
   direction: rtl;
   width: 320px;
-
   backdrop-filter: blur(30px);
-  border-radius: 15px;
   box-shadow: 
     0 2px 5px rgba(0, 0, 0, 0.2),
     0 -1px 5px rgba(250, 230, 234, 0.2),
@@ -20,34 +19,10 @@
   transition: all 0.3s ease;
 }
 
-.container:hover {
- 
-  box-shadow: 
-    0 2px 5px rgba(0, 0, 0, 0.25),
-    0 -1px 5px rgba(250, 230, 234, 0.25),
-    2px 2px 5px rgba(253, 231, 231, 0.15),
-    -2px -2px 5px rgba(228, 182, 194, 0.15),
-    inset 1px 1px 2px rgba(251, 194, 194, 0.35),
-    inset -1px -1px 2px rgba(255, 207, 230, 0.25);
-}
-
-.text {
-  font-family: 'AssistantR', sans-serif;
-  font-size: 1.15rem;
-  direction: rtl;
-  margin-right: 10px;
-  font-weight: 300;
-  width: 80%;
-
-}
-
-.icon {
-  width: 20%;
-}
-
-@media (max-width: 350px) {
+/* Mobile styles */
+@media screen and (max-width: 450px) {
   .container {
-    width: 270px;
+    width: 300px;
     padding: 0.2rem 0.4rem;
   }
 
@@ -60,5 +35,12 @@
   .icon {
     width: 30%;
     text-align: center;
+  }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    width: 270px;
   }
 }

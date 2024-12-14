@@ -54,6 +54,8 @@ const response= await fetch('https://daniel-rozenblat-421d37a33cb7.herokuapp.com
 return <>
 
 <div className={styles.title} id="צור קשר">זמן לקחת החלטה</div>
+
+<div className={styles.subTitle}>מלא/י את הטופס הבא ותקבל ממני שיחת ייעוץ חינמית ביומיים הקרובים!</div>
 <form className={styles.form}>
 <div className={styles.column}>
 <input className={styles.input} ref={nameRef} placeholder="שם מלא"></input>

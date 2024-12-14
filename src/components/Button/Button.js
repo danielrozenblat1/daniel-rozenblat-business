@@ -20,7 +20,7 @@ const Button=(props)=> {
   
   },[])
   return (
-   <button className={styles.button}><ScrollLink to="צור קשר"  smooth={true} duration={1000} offset={-70}>{props.text}</ScrollLink></button> 
+  <div className={styles.center}><button className={styles.button}><ScrollLink to="צור קשר"  smooth={true} duration={1000} offset={-70}>{props.text}</ScrollLink></button> </div> 
   );
 }
 export default Button

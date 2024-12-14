@@ -1,29 +1,45 @@
-import Knowledge from "../components/Knowledge/Knowledge";
+// ForthScreen.jsx
+import NewBox from "../components/NewBox/NewBox"
 import styles from "./ForthScreen.module.css"
-import { FaPython, FaJs, FaCode, FaLinux, FaHtml5, FaDatabase, FaPhp, FaJava, FaCPlusPlus, FaBash, FaReact } from 'react-icons/fa';
-import { IoLogoMongoDB, IoLogoCss3, IoLogoReact } from 'react-icons/io';
-const ForthScreen=()=>{
-
-
-return <>
-<div className={styles.subTitle}>כבר 8 שנים שאני חי ונושם תכנות וקוד, וזה הזמן שכל הידע שצברתי יבוא לידי ביוטי בדפי הנחיתה שלכם : באלמנטים במיוחדים, באפקטים המיוחדים ובשליטה בכל פרט ופרט בדף שלכם </div>
-<div className={styles.title}>יש לי ידע ב..</div>
-<div className={styles.row}>
-      {/* Passing FaJs component as a prop */}
-      <Knowledge icon={FaPython} text="Python" />
-        <Knowledge icon={FaJs} text="JavaScript" />
-        <Knowledge icon={FaDatabase} text="MONGO DB" />
-        <Knowledge icon={IoLogoCss3} text="CSS" />
-        <Knowledge icon={FaHtml5} text="HTML" />
-        <Knowledge icon={FaReact} text="React" />
-
-        <Knowledge icon={FaJava} text="Java" />
- 
-
-    </div>
-
-</>
-
-
+import money from "../icons/wired-lineal-949-bonds-hover-pinch.json"
+import forgot from "../icons/wired-lineal-2177-infinity-sign-hover-draw (1).json"
+import phone from "../icons/wired-lineal-140-earphone-telephone-hover-calling.json"
+import Button from "../components/Button/Button"
+const ForthScreen = () => {
+  return (
+    <>
+      <div className={styles.title} itemprop="headline">
+        כמה פעמים יצא לך
+      </div>
+      <div className={styles.row}>
+        <NewBox 
+    
+          description="לקבל פניות מאנשים שמעוניינים רק במחיר שלך ולא מעבר"
+          icon={money}
+        />
+        <NewBox 
+    
+          description="לחזור על עצמך בכל שיחת מכירה כמו תוכי ובסוף לקבל ים התנגדויות"
+          icon={forgot}
+        />
+        <NewBox 
+       
+          description="לדבר עם מתעניין יום אחרי שהשאיר פרטים והוא כבר שכח אותך"
+          icon={phone}
+        />
+      </div>
+      <div className={styles.title}>
+   המצב הזה יכול להשתנות!
+      </div>
+      <div className={styles.description}>
+        כשיודעים איך להשפיע על קהל היעד,מה מניע אותו לפעולה,איך לתפוס אותו ולספק לו את כל מה שהוא חיפש לדעת
+      </div>
+      <div className={styles.title}>
+איכות הפניות מתחילה להשתנות
+      </div>
+      <Button text="דניאל, בוא נדבר!"/>
+    </>
+  )
 }
+
 export default ForthScreen

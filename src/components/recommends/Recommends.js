@@ -24,6 +24,10 @@ import result23 from "../../images/שרון סרור חוות דעת.png"
 import result24 from "../../images/גרטה מור חוות דעת.png"
 import result25 from "../../images/סתיו יעקובי חוות דעת.png"
 import result26 from "../../images/אנסטסיה טלן חוות דעת.png"
+import result27 from "../../images/סוזנה חוות דעת.png"
+import result28 from "../../images/לריאן חוות דעת.png"
+import result29 from "../../images/מעיין חוות דעת.png"
+import result30 from "../../images/אביה חוות דעת.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -44,6 +48,23 @@ const Recommends=()=>{
                      
       };
       const content = [
+    
+        {
+          type: 'image',
+          src: result28,
+        },
+        {
+          type: 'image',
+          src: result27,
+        },
+        {
+          type: 'image',
+          src: result30,
+        },
+        {
+          type: 'image',
+          src: result29,
+        },
         {
           type: 'image',
           src: result11,

@@ -23,11 +23,11 @@ import anastasiaTalan from "../../images/אנסטסיה טלן חכים.png"
 import sharonSror from "../../images/שרון סרור.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
+
 const Works = (props) => {
   const location = useLocation();
  
   const worksData = [
-    
     { title: "אנסטסיה טלן", description: "איפור כלות | השתלמויות | קורס דיגיטלי", src: anastasiaTalan,href:"https://anastasiatalanhakim.co.il" },
     { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
     { title: "שרון סרור", description: "איפור כלות | השתלמויות למאפרות", src: sharonSror,href:"https://sharonsror.co.il" },
@@ -42,7 +42,6 @@ const Works = (props) => {
     { title: "מירב בישולים", description: "בישולים בייתיים", src:meravishulim ,href:"https://Meravbishulim.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "Lance", description: "קייטרינג לאירועים", src:lance ,href:"https://lancebuffet.co.il" },
-   
     { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
     { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" },
     { title: "גל ביוטי", description: "איפור קבוע לפיגמנט שפתיים", src: galBeauty,href:"https://galbeauty.co.il" },
@@ -53,42 +52,48 @@ const Works = (props) => {
     { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
   ];
 
-  return  (
+  return (
     <div className={styles.worksContainer} id="עבודות">
       {worksData.map((work, index) => (
-        <div className={styles.work} key={index}>
-          {index % 2 === 0 ? (
-            <>
-              <div className={styles.text} itemscope itemtype="http://schema.org/CreativeWork"> 
-                <h1 className={styles.title} itemprop="name">{work.title}</h1>
-                <p className={styles.description} itemprop="description">{work.description}</p>
-                <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
-              </div>
-              <div className={styles.imageContainer}>
-                <div className={styles.overlay}></div>
-                <a href={work.href} target="_blank"><img className={styles.img} src={work.src} alt={work.title}  /></a>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className={styles.imageContainer}>
-                <div className={styles.overlay}></div>
-                <a href={work.href} target="_blank"> <img className={styles.img} src={work.src} alt={work.title} /></a> 
-              </div>
-              <div className={styles.text} itemscope itemtype="http://schema.org/CreativeWork">
-                <h1 className={styles.title} itemprop="name">{work.title}</h1>
-                <p className={styles.description} itemprop="description">{work.description}</p>
-                <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
-              </div>
-       
-            </>
+        <>
+          <div className={styles.work} key={index}>
+            {index % 2 === 0 ? (
+              <>
+                <div className={styles.text} itemScope itemType="http://schema.org/CreativeWork"> 
+                  <h1 className={styles.title} itemProp="name">{work.title}</h1>
+                  <p className={styles.description} itemProp="description">{work.description}</p>
+                  <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
+                </div>
+                <div className={styles.imageContainer}>
+                  <div className={styles.overlay}></div>
+                  <a href={work.href} target="_blank" rel="noopener noreferrer">
+                    <img className={styles.img} src={work.src} alt={work.title} />
+                  </a>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className={styles.imageContainer}>
+                  <div className={styles.overlay}></div>
+                  <a href={work.href} target="_blank" rel="noopener noreferrer">
+                    <img className={styles.img} src={work.src} alt={work.title} />
+                  </a>
+                </div>
+                <div className={styles.text} itemScope itemType="http://schema.org/CreativeWork">
+                  <h1 className={styles.title} itemProp="name">{work.title}</h1>
+                  <p className={styles.description} itemProp="description">{work.description}</p>
+                  <p className={styles.href}>למעבר לדף לחצו על התמונה</p>
+                </div>
+              </>
+            )}
+          </div>
+          {(index + 1) % 3 === 0 && index !== worksData.length - 1 && (
+            <Button text="ראיתי מספיק, בוא נדבר!" />
           )}
-          
-        </div>
+        </>
       ))}
- {location.pathname !== "/%D7%AA%D7%95%D7%93%D7%94" && <Button text="דניאל , בוא נדבר" />}
+      {location.pathname !== "/%D7%AA%D7%95%D7%93%D7%94" && <Button text="דניאל , בוא נדבר" />}
     </div>
-    
   );
 };
 

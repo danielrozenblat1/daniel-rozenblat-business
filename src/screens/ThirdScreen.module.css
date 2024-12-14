@@ -1,584 +1,197 @@
-.title{
-    font-family: "Assistant";
-    font-size: 3rem;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    direction: rtl;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3% auto;
 }
 
-
-.subTitle{
-    font-family: "Assistant";
-    font-size: 2rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:40%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    position: relative;
-    align-items: center;
-  }
-  
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
-  }
-.image{
-    width: 30%;;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1.2rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:60%;
-    direction: rtl;
-}
-@media only screen and (max-width: 350px) {
-  .title{
-    font-family: "Assistant";
-    font-size: 2rem;
-    text-align: center;
-    direction: rtl;
-    width:100%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
-    flex-direction: column;
+.title {
+  font-family: "Assistant";
+  color: black;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 2% auto;
+  direction: rtl;
 }
 
-
-.subTitle{
-    font-family: "Assistant";
-    font-size: 1.2rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:70%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
-  }
-  
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
-  }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:90%;
-    direction: rtl;
-}
-}
-@media only screen  and (min-width: 350px) and (max-width: 450px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 1.9rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
-    flex-direction: column;
+.description {
+  font-family: "AssistantR";
+  direction: rtl;
+  color: black;
+  font-size: 1.4rem;
+  margin: 2% auto;
+  text-align: center;
 }
 
-
-.subTitle{
-    font-family: "Assistant";
-    font-size: 1.4rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:60%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
-  }
-  
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
-  }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
-}
-}
-@media only screen  and (min-width: 450px) and (max-width:550px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 2.1rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
-    flex-direction: column;
-}
-
-
-.subTitle{
-    font-family: "Assistant";
-    font-size: 1.5rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:80%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
-  }
-  
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
-  }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1.1rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
-}
-}
-@media only screen  and (min-width: 550px) and (max-width:650px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 2.2rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
-    flex-direction: column;
-}
-
-
-.subTitle{
-    font-family: "Assistant";
+/* Under 350px */
+@media screen and (max-width: 349px) {
+  .title {
     font-size: 1.6rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:80%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
+    margin: 1.5% auto;
   }
   
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
+  .description {
+    font-size: 1rem;
+    margin: 1.5% auto;
   }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1.1rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
-}
-}
-@media only screen  and (min-width: 650px) and (max-width:850px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 2.5rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
+  
+  .row {
+    margin: 2% auto;
     flex-direction: column;
+  }
 }
 
-
-.subTitle{
-    font-family: "Assistant";
+/* 350px - 450px */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  .title {
     font-size: 1.7rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:80%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
+    margin: 1.6% auto;
   }
   
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
+  .description {
+    font-size: 1.1rem;
+    margin: 1.6% auto;
   }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1.2rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
-}
-}
-@media only screen  and (min-width: 850px) and (max-width:1050px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 2.7rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
+  
+  .row {
+    margin: 2.2% auto;
     flex-direction: column;
+  }
 }
 
-
-.subTitle{
-    font-family: "Assistant";
+/* 450px - 550px */
+@media screen and (min-width: 451px) and (max-width: 550px) {
+  .title {
     font-size: 1.8rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:80%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
+    margin: 1.7% auto;
   }
   
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
-  }
-.image{
-    width: 30%;
-    object-fit: contain;
-}
-.description{
-    display: flex;
-    font-family: "AssistantR";
+  .description {
     font-size: 1.2rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
-}
-}
-
-@media only screen  and (min-width: 1050px) and (max-width:1250px) {
-
-  .title{
-    font-family: "Assistant";
-    font-size: 3rem;
-    text-align: center;
-    direction: rtl;
-    width:70%;
-    margin:0 auto;
-}
-.wrap{
-    position: relative;
-    width:95%;
-    display: flex;
-    margin:0 auto;
-    flex-direction: column;
+    margin: 1.7% auto;
+  }
+  
+  .row {
+    margin: 2.4% auto;
+  }
 }
 
+/* 550px - 650px */
+@media screen and (min-width: 551px) and (max-width: 650px) {
+  .title {
+    font-size: 1.9rem;
+    margin: 1.8% auto;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin: 1.8% auto;
+  }
+  
+  .row {
+    margin: 2.6% auto;
+  }
+}
 
-.subTitle{
-    font-family: "Assistant";
+/* 650px - 750px */
+@media screen and (min-width: 651px) and (max-width: 750px) {
+  .title {
     font-size: 2rem;
-    text-align: center;
-    direction: rtl;
-    margin:0 auto;
-}
-.center{
-    display: flex;
-margin:2% auto;
-justify-content: center;
-
-}
-.bold {
-    background: linear-gradient(to right, #6908a17d, #9817ee81);
-  width:70%;
-    padding: 0.2rem 0.5rem;
-    border-radius: 0.5rem;
-    color: #fff;
-    margin:2% auto;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    position: relative;
-    align-items: center;
+    margin: 1.9% auto;
   }
   
-  .bold::before {
-    content: "";
-    position: absolute;
-    top: -5px;
-
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    background: linear-gradient(to right, #ad17ee50, #6908a165);
-    z-index: -1;
-    border-radius: 0.5rem;
-    filter: blur(5px);
-    opacity: 0.5;
+  .description {
+    font-size: 1.3rem;
+    margin: 1.9% auto;
   }
-.image{
-    width: 30%;
-    object-fit: contain;
+  
+  .row {
+    margin: 2.8% auto;
+  }
 }
-.description{
-    display: flex;
-    font-family: "AssistantR";
-    font-size: 1.2rem;
-    text-align: center;
-    justify-content: center;
-    margin:2% auto;
-    width:95%;
-    direction: rtl;
+
+/* 750px - 850px */
+@media screen and (min-width: 751px) and (max-width: 850px) {
+  .title {
+    font-size: 2.1rem;
+    margin: 2% auto;
+  }
+  
+  .description {
+    font-size: 1.35rem;
+    margin: 2% auto;
+  }
+  
+  .row {
+    margin: 2.9% auto;
+  }
 }
+
+/* 850px - 950px */
+@media screen and (min-width: 851px) and (max-width: 950px) {
+  .title {
+    font-size: 2.15rem;
+    margin: 2% auto;
+  }
+  
+  .description {
+    font-size: 1.37rem;
+    margin: 2% auto;
+  }
+  
+  .row {
+    margin: 3% auto;
+  }
+}
+
+/* 950px - 1050px */
+@media screen and (min-width: 951px) and (max-width: 1050px) {
+  .title {
+    font-size: 2.17rem;
+    margin: 2% auto;
+  }
+  
+  .description {
+    font-size: 1.38rem;
+    margin: 2% auto;
+  }
+  
+  .row {
+    margin: 3% auto;
+  }
+}
+
+/* 1050px - 1150px */
+@media screen and (min-width: 1051px) and (max-width: 1150px) {
+  .title {
+    font-size: 2.18rem;
+    margin: 2% auto;
+  }
+  
+  .description {
+    font-size: 1.39rem;
+    margin: 2% auto;
+  }
+  
+  .row {
+    margin: 3% auto;
+  }
+}
+
+/* 1150px - 1250px */
+@media screen and (min-width: 1151px) and (max-width: 1250px) {
+  .title {
+    font-size: 2.2rem;
+    margin: 2% auto;
+  }
+  
+  .description {
+    font-size: 1.4rem;
+    margin: 2% auto;
+  }
+  
+  .row {
+    margin: 3% auto;
+  }
 }

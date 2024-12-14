@@ -1,88 +1,88 @@
-import styles from "./FirstScreen.module.css"
-import {useEffect,useRef} from "react"
+import styles from "./FirstScreen.module.css";
+import { useEffect, useRef } from "react";
 import { Player } from "@lordicon/react";
-import coldToHot from "../icons/wired-lineal-1059-music-stage-lights-concert-hover-pinch (1).json"
+import coldToHot from "../icons/wired-lineal-1059-music-stage-lights-concert-hover-pinch (1).json";
 import ScrollReveal from "scrollreveal";
 import { Link as ScrollLink } from "react-scroll";
-const FirstScreen=(props)=>{
-
+import IconTextComponent from "../components/NewCan/Can";
+import signature from "../icons/wired-lineal-1018-signature-sig-hover-pinch.json"
+import you from "../icons/wired-lineal-955-demand-morph-coin (1).json"
+import sell from "../icons/wired-lineal-101-price-tag-dollar-hover-flutter.json"
+const FirstScreen = (props) => {
+  const playerRef1 = useRef(null);
+  
   const handleComplete = () => {
     setTimeout(() => {
       playerRef1?.current?.playFromBeginning();
-    }, 2500); // play again after 2.5 seconds
+    }, 2500);
   };
-  const playerRef1 = useRef(null);
-useEffect(()=>{
-  playerRef1?.current?.playFromBeginning();
-},[])
-useEffect(()=>{
-  ScrollReveal().reveal(`.${styles.title}`, {
+
+  useEffect(() => {
+    playerRef1?.current?.playFromBeginning();
+  }, []);
+
+  useEffect(() => {
+    // Initialize ScrollReveal with custom configuration
+    ScrollReveal().reveal(`.${styles.title}`, {
       duration: 1000,
       distance: "30px",
-      origin: "right", // Start from the right side
-      easing: "ease-out",
-      reset:false,
+      origin: "top",
+      easing: "cubic-bezier(0.4, 0, 0.2, 1)",
+      reset: false,
       viewFactor: 0.2,
-      interval: 300, // Delay between each element
-      delay: 200, // Delay before the animation starts
-      scale: 1, // Set scale to 1 or null
+      interval: 300,
+      delay: 200,
+      scale: 1,
     });
-    ScrollReveal().reveal(`.${styles.subTitle}`, {
+    
+    ScrollReveal().reveal(`.${styles.description}`, {
       duration: 1000,
       distance: "30px",
-      origin: "right", // Start from the right side
-      easing: "ease-out",
-      reset:false,
+      origin: "right",
+      easing: "cubic-bezier(0.4, 0, 0.2, 1)",
+      reset: false,
       viewFactor: 0.2,
-      interval: 300, // Delay between each element
-      delay: 200, // Delay before the animation starts
-      scale: 1, // Set scale to 1 or null
+      interval: 300,
+      delay: 400,
+      scale: 1,
     });
-    ScrollReveal().reveal(`.${styles.btn}`, {
-      duration: 1000,
-      distance: "30px",
-      origin: "right", // Start from the right side
-      easing: "ease-out",
-      reset:false,
-      viewFactor: 0.2,
-      interval: 300, // Delay between each element
-      delay: 200, // Delay before the animation starts
-      scale: 1, // Set scale to 1 or null
-    });
-    ScrollReveal().reveal(`.${styles.icon}`, {
-      duration: 1000,
-      distance: "30px",
-      origin: "left", // Start from the right side
-      easing: "ease-out",
-      reset:false,
-      viewFactor: 0.2,
-      interval: 300, // Delay between each element
-      delay: 200, // Delay before the animation starts
-      scale: 1, // Set scale to 1 or null
-    });
-},[])
+  }, []);
 
+  return <>
+    <div className={props.scrolled ? styles.containerP :styles.container}>
+      <div className={styles.wrapper}>
+        <div className={styles.descriptionWrapper}>
+          במיוחד לבעלי עסקים "One Man Show"
+        </div>
 
-return <>
-<div className={`${styles.wrapper} ${styles.playing} `} itemscope itemtype="http://schema.org/WebPage">
- <div className={styles.shape}></div>
-<div className={styles.shape}></div>
-<div className={styles.icon}>
-<Player icon={coldToHot} ref={playerRef1} size="100%" loop={true} onComplete={handleComplete}></Player>
-</div>
-<div className={styles.wrap}>
-{/* <div className={styles.subTitle} itemprop="headline">דף נחיתה שממוקד בקהל היעד שלך עוזר לך</div> */}
-<div className={styles.title} itemprop="mainEntityOfPage"> הדרך המוכחת להשיג יותר לקוחות, יותר מכירות ויותר רווחים  <br/><div className={styles.bold}>בפחות זמן ובפחות מאמץ</div> </div>
-{/* <div className={styles.subTitle}>בעזרת דף נחיתה ממיר, תוכל להדגיש בצורה תדמיתית יותר את הערך שלך, להסיר חסמים ואי וודאויות מראש ולהגביר את האמון בך ובעסק שלך</div> */}
-{/* <div className={styles.btn}><ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><button  className={styles.button}>לחץ כאן לשיחת ייעוץ חינמית</button></ScrollLink></div> */}
+        
+        <div className={styles.description}>
+          פתחתם עסק כי אתם מומחים בתחום מסויים וחשבתם שאתם הולך להתעסק <div className={styles.bolder}>רק</div> במה שאתם אוהבים מהבוקר עד הערב
+        </div>
+        
+        <div className={styles.title}>
+          אבל אף אחד לא סיפר לכם
+        </div>
+        
+        <div className={styles.description}>
+          שזה דורש מכם הרבה יותר מ{" "}
+          <div className={styles.bolder}>
+            רק להיות טובים במה שאתם עושים
+          </div>{" "}
+       
+        </div>
+      </div>
+              
+      <div className={styles.title}>
+      אתם מבינים שצריך
+        </div>
+    </div>
+    <div className={styles.row}>
+<IconTextComponent text="להראות שונים מהמתחרים ולגרום לאנשים להתעניין בערך שלכם" icon={you}/>
+<IconTextComponent text="להצליח למכור את המוצר/שירות שלכם במחיר שאתם באמת רוצים לקבל" icon={sell}/>
+<IconTextComponent text="להוכיח כל פעם מחדש למה דווקא אתם!" icon={signature}/>
+    </div>
+  </>
+};
 
-</div>
-
-
-</div>
-<div className={styles.title} style={{textAlign:"center"}}><div className={styles.bold}>דף נחיתה שממוקד בקהל היעד</div></div>
-</>
-
-
-}
-export default FirstScreen
+export default FirstScreen;
