@@ -58,8 +58,8 @@ const FirstScreen = (props) => {
           במיוחד לבעלי עסקים "One Man Show"
         </div>
 
-        <VideoPlayer src={daniel}/>
-        <FormScreen title=" "/>
+        {/* <VideoPlayer src={daniel}/>
+        <FormScreen title=" "/> */}
         <div className={styles.description}>
           פתחתם עסק כי אתם מומחים בתחום מסויים וחשבתם שאתם הולך להתעסק <div className={styles.bolder}>רק</div> במה שאתם אוהבים מהבוקר עד הערב
         </div>
