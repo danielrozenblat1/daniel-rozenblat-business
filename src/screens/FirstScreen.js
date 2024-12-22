@@ -8,6 +8,9 @@ import IconTextComponent from "../components/NewCan/Can";
 import signature from "../icons/wired-lineal-1018-signature-sig-hover-pinch.json"
 import you from "../icons/wired-lineal-955-demand-morph-coin (1).json"
 import sell from "../icons/wired-lineal-101-price-tag-dollar-hover-flutter.json"
+import VideoPlayer from "../components/videoContainer/VideoContainer";
+import daniel from "../videos/דניאל רוזנבלט דף נחיתה.mp4"
+import FormScreen from "../components/form/FormScreen";
 const FirstScreen = (props) => {
   const playerRef1 = useRef(null);
   
@@ -55,7 +58,8 @@ const FirstScreen = (props) => {
           במיוחד לבעלי עסקים "One Man Show"
         </div>
 
-        
+        <VideoPlayer src={daniel}/>
+        <FormScreen title=" "/>
         <div className={styles.description}>
           פתחתם עסק כי אתם מומחים בתחום מסויים וחשבתם שאתם הולך להתעסק <div className={styles.bolder}>רק</div> במה שאתם אוהבים מהבוקר עד הערב
         </div>

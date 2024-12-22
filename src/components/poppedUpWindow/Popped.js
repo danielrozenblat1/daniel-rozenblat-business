@@ -17,7 +17,7 @@ const navigate=useNavigate()
     // הצגת הטופס לראשונה אחרי 20 שניות
     const initialTimeout = setTimeout(() => {
       setOpened(true);
-    }, 20000);
+    }, 30000);
 
     // הצגת הטופס כל 3 דקות
     const interval = setInterval(() => {

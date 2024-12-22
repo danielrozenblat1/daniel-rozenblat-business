@@ -44,7 +44,6 @@ const Navbar = () => {
       color: '#483D8B',
       gradientColor: 'rgba(72, 61, 139, 0.2)',
     },
-  
     {
       id: 'עבודות',
       text: 'עבודות',
@@ -94,18 +93,21 @@ const Navbar = () => {
   return (
     <>
       <nav className={`${styles.wrap} ${isSticky ? styles.sticky : ''}`}>
-        <button
-          className={`${styles.menuTrigger} ${isOpen ? styles.active : ''}`}
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label="תפריט"
-        >
-          <div className={styles.menuTriggerInner}>
-            <div className={styles.menuTriggerLine}></div>
-            <div className={styles.menuTriggerLine}></div>
-            <div className={styles.menuTriggerLine}></div>
-          </div>
-          <div className={styles.menuTriggerGlow}></div>
-        </button>
+        <div className={styles.navContent}>
+          <button
+            className={`${styles.menuTrigger} ${isOpen ? styles.active : ''}`}
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="תפריט"
+          >
+            <div className={styles.menuTriggerInner}>
+              <div className={styles.menuTriggerLine}></div>
+              <div className={styles.menuTriggerLine}></div>
+              <div className={styles.menuTriggerLine}></div>
+            </div>
+            <div className={styles.menuTriggerGlow}></div>
+          </button>
+          <img src={logo} alt="Logo" className={styles.headerLogo} />
+        </div>
 
         <div className={`${styles.menuWrapper} ${isOpen ? styles.open : ''}`}>
           <div

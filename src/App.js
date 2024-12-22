@@ -8,6 +8,8 @@ import PresentPage from "./components/presentFromMe/PresentPage"
 import Thanks from './components/thank/Thanks';
 import BeautyWrapper from './Beauty/Screens/BeautyWrapper';
 function App() {
+
+  
   return <>
    <Router>
     <Routes>

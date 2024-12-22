@@ -21,6 +21,7 @@ import mayLine from "../../images/מאי סויסה.png"
 import lorinNakash from "../../images/לורין נקש.png"
 import anastasiaTalan from "../../images/אנסטסיה טלן חכים.png"
 import sharonSror from "../../images/שרון סרור.png"
+import aviaHarshish from "../../images/אביה הרשיש.png"
 import Button from "../Button/Button";
 import { useLocation } from "react-router-dom";
 
@@ -29,10 +30,11 @@ const Works = (props) => {
  
   const worksData = [
     { title: "אנסטסיה טלן", description: "איפור כלות | השתלמויות | קורס דיגיטלי", src: anastasiaTalan,href:"https://anastasiatalanhakim.co.il" },
-    { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
+    { title: "אביה הרשיש", description: "אדריכלית", src: aviaHarshish,href:"https://avia-arch.co.il" },
     { title: "שרון סרור", description: "איפור כלות | השתלמויות למאפרות", src: sharonSror,href:"https://sharonsror.co.il" },
     { title: "תומר גדי", description: "מומחית ללימוד ציפורניים", src: tomerGedi,href:"https://tomernails.co.il" },
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
+    { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
     { title: "שרה אנניה", description: "מומחית לאיפור כלות וערב", src: saraAnanya,href:"https://saraananya.co.il" },
     { title: "מאי ליין", description: "לימודי ציפורניים וגבות", src: mayLine,href:"https://mayline.co.il" },
     { title: "ניקול ולרי", description: "מומחית ביוטי", src: nikol,href:"https://nikolvalerie.co.il" },

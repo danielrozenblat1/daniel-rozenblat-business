@@ -1,0 +1,144 @@
+/* VideoContainer.module.css */
+.videoContainer {
+    position: relative;
+    aspect-ratio: 9/16;
+    max-width: 400px;
+    width: 90%;
+    margin: 2rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12), 
+                0 4px 8px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(145deg, #ffffff, #fafafa);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay:hover {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.25) 0%,
+        rgba(0, 0, 0, 0.35) 50%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+}
+
+.playButton, .pauseButton {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pauseButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.videoContainer:hover .pauseButton {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.playButton:hover, .pauseButton:hover {
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.playIcon, .pauseIcon {
+    width: 32px;
+    height: 32px;
+    color: #1a1a1a;
+    transition: color 0.3s ease;
+}
+
+.playIcon {
+    margin-left: 4px;
+}
+
+.pauseIcon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 350px) {
+    .videoContainer {
+        width: 90%;
+        max-width: 250px;
+        height: 400px;
+        aspect-ratio: auto;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 450px) {
+    .videoContainer {
+        width: 90%;
+        max-width: 280px;
+        height: 400px;
+        aspect-ratio: auto;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 550px) {
+    .videoContainer {
+        width: 90%;
+        max-width: 300px;
+        height: 400px;
+        aspect-ratio: auto;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+    .videoContainer {
+        width: 85%;
+        max-width: 320px;
+        height: 400px;
+        aspect-ratio: auto;
+    }
+}
+
+@media (min-width: 651px) {
+    .videoContainer {
+        width: 70%;
+        height: 450px;
+        max-width: 300px;
+    }
+}
