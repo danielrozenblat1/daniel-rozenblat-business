@@ -89,7 +89,7 @@ const Works = (props) => {
               </>
             )}
           </div>
-          {(index + 1) % 3 === 0 && index !== worksData.length - 1 && (
+          {(index + 1) % 3 === 0 && index !== worksData.length - 1 && location.pathname !== "/%D7%AA%D7%95%D7%93%D7%94" && (
             <Button text="ראיתי מספיק, בוא נדבר!" />
           )}
         </>
