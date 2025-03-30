@@ -3,15 +3,15 @@ import nikol from "../../images/ניקול ולארי - מומחית ביוטי.
 import shoval from "../../images/שובל דעבול - נומורולוגית.png"
 import danielTurayev from "../../images/דניאל טורייב - פיננסים.png"
 import matan from "../../images/מתן חממי - דרופשיפינג.png"
-import regina from "../../images/רגינה אטן-איפור קבוע.png"
-import nir from "../../images/home-x - ניר בן דוד.png"
+import morezra from "../../images/מור עזרא.png"
+import shiradi from "../../images/שיר עדי.png"
 import orianHamami from "../../images/אוריאן חממי.png"
 import valeriaRemidovski from "../../images/ולריה רמידובסקי.png"
-import naorLevi from "../../images/נאור לוי.png"
-import michalabend from "../../images/מיכל אבנד צילום.png"
+import shirelzagury from "../../images/שיראל זגורי.png"
+import suzanapinhasi from "../../images/סוזנה פנחסי.png"
 import adiMaman from "../../images/עדי ממן.png"
 import sapirDayan from "../../images/ספיר דיין.png"
-import galBeauty from "../../images/גל יאקובצאק.png"
+import annagrekov from "../../images/אנה גרקוב.png"
 import tomerGedi from "../../images/תומר גדי.png"
 import saraAnanya from "../../images/שרה אנניה.png"
 import inbalRozenfeld from "../../images/ענבל רוזנפלד.png"
@@ -29,9 +29,16 @@ const Works = (props) => {
   const location = useLocation();
  
   const worksData = [
-    { title: "אנסטסיה טלן", description: "איפור כלות | השתלמויות | קורס דיגיטלי", src: anastasiaTalan,href:"https://anastasiatalanhakim.co.il" },
+    { title: "אנה גרקוב", description: "איפור קבוע - קורסים וטיפולים", src: annagrekov,href:"https://annagrekov.co.il" },
     { title: "אביה הרשיש", description: "אדריכלית", src: aviaHarshish,href:"https://avia-arch.co.il" },
+    { title: "אנסטסיה טלן", description: "איפור כלות | השתלמויות | קורס דיגיטלי", src: anastasiaTalan,href:"https://anastasiatalanhakim.co.il" },
+
+   
+    { title: "סוזנה פנחסי", description: "קורסים בתחום הביוטי", src: suzanapinhasi,href:"https://suzanapinhasi.co.il" },
     { title: "שרון סרור", description: "איפור כלות | השתלמויות למאפרות", src: sharonSror,href:"https://sharonsror.co.il" },
+    { title: "שיראל זגורי", description: "יוגה לילדים", src: shirelzagury,href:"https://yoga-with-shirel.co.il" },
+    { title: "שיר עדי", description: "קורס להחלקות שיער", src: shiradi,href:"https://shiradiacademy.co.il" },
+    { title: "מור עזרא", description: "טיפולי איפור קבוע ומיקרופיגמנטציה", src:morezra,href:"https://morezra.co.il" },
     { title: "תומר גדי", description: "מומחית ללימוד ציפורניים", src: tomerGedi,href:"https://tomernails.co.il" },
     { title: "ספיר דיין", description: "מאפרת מקצועית", src:sapirDayan,href:"https://sapirdayanmakeup.co.il" },
     { title: "עדי ממן", description: "אקדמיית בוטיק ללימוד ציפורניים", src: adiMaman,href:"https://adimaman.co.il" },
@@ -44,14 +51,9 @@ const Works = (props) => {
     { title: "מירב בישולים", description: "בישולים בייתיים", src:meravishulim ,href:"https://Meravbishulim.co.il" },
     { title: "VLR", description: "צילום,ניהול סושיאל וUGC", src:valeriaRemidovski,href:"https://valeriaremydovsky.co.il" },
     { title: "Lance", description: "קייטרינג לאירועים", src:lance ,href:"https://lancebuffet.co.il" },
-    { title: "מיכל אבנד צילום", description: "צילומים בטבע", src:michalabend,href:"https://michalabendphotography.co.il" },
-    { title: "נאור לוי", description: "ספר גברים וילדים", src:naorLevi ,href:"https://naorbarbershop.co.il" },
-    { title: "גל ביוטי", description: "איפור קבוע לפיגמנט שפתיים", src: galBeauty,href:"https://galbeauty.co.il" },
+  
     { title: "שובל דעבול", description: "נומורולוגיה וריפוי דרך התת מודע", src: shoval ,href:"https://shovaldabol.co.il"},
-    { title: "Home-x", description: "יועץ משכנתאות", src: nir ,href:"https://home-x.co.il"},
-    { title: "רגינה אטן", description: "מומחית לאיפור קבוע", src:regina ,href:"https://reginaatan.co.il" },
-    { title: "מתן חממי", description: "מומחה ומלווה בתחום הדרופשיפינג", src:matan ,href:"https://matan-project-e1e88.web.app" },
-    { title: "דניאל טורייב", description: "יועץ פיננסים", src:danielTurayev,href:"https://danielturayev.co.il" },
+
   ];
 
   return (

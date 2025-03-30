@@ -28,6 +28,12 @@ import result27 from "../../images/סוזנה חוות דעת.png"
 import result28 from "../../images/לריאן חוות דעת.png"
 import result29 from "../../images/מעיין חוות דעת.png"
 import result30 from "../../images/אביה חוות דעת.png"
+import result31 from "../../images/נופר חלפון המלצה.png"
+import result32 from "../../images/סוזנה חוות דעת.png"
+import result33 from "../../images/שמחה לוי המלצה.png"
+import result34 from "../../images/שיר עדי המלצה.png"
+import result35 from "../../images/חן ושי המלצה.png"
+import result36 from "../../images/שיראל זגורי המלצה.png"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -55,6 +61,10 @@ const Recommends=()=>{
         },
         {
           type: 'image',
+          src: result36,
+        },
+        {
+          type: 'image',
           src: result27,
         },
         {
@@ -63,7 +73,15 @@ const Recommends=()=>{
         },
         {
           type: 'image',
+          src: result35,
+        },
+        {
+          type: 'image',
           src: result29,
+        },
+        {
+          type: 'image',
+          src: result34,
         },
         {
           type: 'image',
@@ -75,6 +93,10 @@ const Recommends=()=>{
         },
         {
           type: 'image',
+          src: result33,
+        },
+        {
+          type: 'image',
           src: result15,
         },
         {
@@ -83,11 +105,19 @@ const Recommends=()=>{
         },
         {
           type: 'image',
+          src: result32,
+        },
+        {
+          type: 'image',
           src: result1,
         },
         {
           type: 'image',
           src: result22,
+        },
+        {
+          type: 'image',
+          src: result31,
         },
         {
           type: 'image',
